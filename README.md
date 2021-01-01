@@ -315,3 +315,10 @@
 - Description : This project is a very excitingg project for me as I'm a movie aficionado. This is a very simple web scraping application which scrapes data from [Esquire website](https://www.esquire.com/entertainment/movies/g226/best-movies-ever-0609/) listing all 100 movies of all time. After getting the movies titles I store it in a text file so I can delete movies from it when I watch some of them from the list :clapper:
 - [Source-Code](https://github.com/MihirMore/100daysofcode-Python/tree/main/Day-45/Final_Project/Empire_Movie_Data)
 - [Live Version](https://replit.com/@MihirMore1/100-Movies-of-All-Time#main.py)
+
+### Day - 46
+
+- Project Name: **Musical Time Machine**
+- Description : This musical time machine takes a date as an input and creates a Spotify playlist of Top 100 BillBoard's hits of that particular date. This project scrapes BillBoards data for particular date and then uses Spotify's API to create a private playlist :headphones:
+- [Source-Code]()
+- [Live-version](https://replit.com/@MihirMore1/Musical-Time-Machine#main.py)
