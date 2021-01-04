@@ -308,3 +308,10 @@
 - Description : This is a personal website where I have created a minimal and clean webpage with information about me so that people around the world can learn about me and my professional skills :bowtie:
 - [Source Code](https://github.com/MihirMore/100daysofcode-Python/tree/main/Day-44/Final-Project/Personal_Website)
 - [Live-Version](https://mihirmore.github.io/Fcc-Responsive-web-project/Personal_Website/)
+
+### Day - 45
+
+- Project Name: **100 Movies of All Time**
+- Description : This project is a very excitingg project for me as I'm a movie aficionado. This is a very simple web scraping application which scrapes data from [Esquire website](https://www.esquire.com/entertainment/movies/g226/best-movies-ever-0609/) listing all 100 movies of all time. After getting the movies titles I store it in a text file so I can delete movies from it when I watch some of them from the list :clapper:
+- [Source-Code]()
+- [Live Version](https://replit.com/@MihirMore1/100-Movies-of-All-Time#main.py)
