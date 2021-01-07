@@ -179,4 +179,4 @@ which tested all the concepts covered till now and building blackjack project wa
 
 ### Day - 44
 
-**Thoughts** : Completed the personal website with all the CSS and HTML code added.
+**Thoughts** : Completed the personal website with all the CSS and HTML code added. Added a lot of CSS code and learnt how to align html elements. Also learned how to use float and wrap text around an image. Also deployed personal website to github pages.
