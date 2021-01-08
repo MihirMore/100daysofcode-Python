@@ -175,4 +175,8 @@ which tested all the concepts covered till now and building blackjack project wa
 
 ### Day - 43
 
-**Thoughts** : Started with CSS and how it is used to design the HTML skeleton. Read an intresting article about CSS and history about it. Learnt about difference between Inline CSS, Internal CSS and External CSS. Also read about skeleton of css.
+**Thoughts** : Started with CSS and how it is used to design the HTML skeleton. Read an intresting article about CSS and history about it. Learnt about difference between Inline CSS, Internal CSS and External CSS. Also read about skeleton of css. Also, learned about css selectors and diffrerence between them. Added CSS to existing website.
+
+### Day - 44
+
+**Thoughts** : Completed the personal website with all the CSS and HTML code added.
