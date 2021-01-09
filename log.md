@@ -172,3 +172,7 @@ which tested all the concepts covered till now and building blackjack project wa
 ### Day - 42
 
 **Thoughts** : Learned more about HTML specifically about tables and how to structure them. Also how to use emojis in HTML. HTML forms are also useful for collecting inforamtion and created a contact me form.
+
+### Day - 43
+
+**Thoughts** : Started with CSS and how it is used to design the HTML skeleton. Read an intresting article about CSS and history about it. Learnt about difference between Inline CSS, Internal CSS and External CSS. Also read about skeleton of css.
