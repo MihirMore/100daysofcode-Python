@@ -168,3 +168,7 @@ which tested all the concepts covered till now and building blackjack project wa
 ### Day - 41
 
 **Thoughts** : Started today with web development foundations which include HTML & CSS. The HTML part is skeleton of website and I revisited some reference documents of html. Also built a personal website which is quite bare-bones and shows some basics of a website. There's a long way to learn about web development.
+
+### Day - 42
+
+**Thoughts** : Learned more about HTML specifically about tables and how to structure them. Also how to use emojis in HTML. HTML forms are also useful for collecting inforamtion and created a contact me form.
