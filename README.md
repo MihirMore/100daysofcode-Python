@@ -302,3 +302,9 @@
 - Description : Today we add the Cascading Style Sheets(CSS) to our project. Thhis makes our website look more like 21st Century website. CSS helps us to control the html elements :star:
 - [Source-Code](https://github.com/MihirMore/100daysofcode-Python/tree/main/Day-43/Personal-Website)
 
+### Day - 44
+
+- Project Name: **Personal Website**
+- Description : This is a personal website where I have created a minimal and clean webpage with information about me so that people around the world can learn about me and my professional skills :bowtie:
+- [Source Code]()
+- [Live-Version](https://mihirmore.github.io/Fcc-Responsive-web-project/Personal_Website/)
