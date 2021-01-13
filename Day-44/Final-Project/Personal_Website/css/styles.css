@@ -78,15 +78,19 @@ p {
 }
 
 .web-development{
-    width: 150px;
-    height: 150px;
+    width: 180px;
+    height: 180px;
     border-radius: 50%;
+    float: left;
+    margin-right: 40px;
 }
 
 .ai {
-    width: 150px;
-    height: 150px;
+    width: 180px;
+    height: 180px;
     border-radius: 50%;
+    float: right;
+    margin-left: 40px;
 }
 
 .skill-row {
