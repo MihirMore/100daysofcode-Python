@@ -25,9 +25,9 @@ body {
 }
 
 .bottom-container {
-    background-color: #a4b3b6;
-    padding-top: 20px;
-    padding-bottom: 10px;
+    background-color: #5e9fac;
+    padding-top: 14px;
+    padding-bottom: 5px;
 }
 
 h1 {
@@ -80,11 +80,18 @@ p {
 .web-development{
     width: 150px;
     height: 150px;
-    border-radius: 20%;
+    border-radius: 50%;
 }
 
 .ai {
     width: 150px;
     height: 150px;
-    border-radius: 20%;
+    border-radius: 50%;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 0 auto 100px auto;
+    text-align: left;
+    line-height: 2;
 }
