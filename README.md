@@ -293,5 +293,5 @@
 ### Day - 42
 
 - Project Name: **Personal Website(CV)**
-- **Description** : This is a web foundational project which is all about HTML and building your first website/project which is an simple personal resume. This is part-II of yesterday's project with Intermediate HTML features added like tables and forms :yellow_heart:
+- Description : This is a web foundational project which is all about HTML and building your first website/project which is an simple personal resume. This is part-II of yesterday's project with Intermediate HTML features added like tables and forms :yellow_heart:
 - [Source Code]()
