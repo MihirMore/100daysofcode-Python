@@ -164,3 +164,7 @@ which tested all the concepts covered till now and building blackjack project wa
 ### Day - 40
 
 **Thoughts** : Today completed the capstone project started yesterday. But added features to cater to new users/customers by registering them and adding them to the user google sheet. Also it sends email to users instead of messaging us. This was a very fun project.
+
+### Day - 41
+
+**Thoughts** : Started today with web development foundations which include HTML & CSS. The HTML part is skeleton of website and I revisited some reference documents of html. Also built a personal website which is quite bare-bones and shows some basics of a website. There's a long way to learn about web development.
