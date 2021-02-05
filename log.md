@@ -160,3 +160,7 @@ which tested all the concepts covered till now and building blackjack project wa
 ### Day - 39
 
 **Thoughts** : Today's project is a capstone project wherein I develop a Flight application which will send me notifications when flight prices are less then I have entered for the next six months. This application uses Sheety API to read/write data stored in our google sheets. Also, we have used Tequila by kiwi API to fetch IATA codes for destination cities as well as to fetch flight data. And finally I used Twilio data to send a notification alert if application finds low flight price.
+
+### Day - 40
+
+**Thoughts** : Today completed the capstone project started yesterday. But added features to cater to new users/customers by registering them and adding them to the user google sheet. Also it sends email to users instead of messaging us. This was a very fun project.
