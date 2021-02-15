@@ -156,3 +156,7 @@ which tested all the concepts covered till now and building blackjack project wa
 ### Day - 38
 
 **Thoughts** : The project developed today is a workout tracker which let's you track you workouts and uses a NLP engine provided by Nutritionix API which gives us the information about the workouts and calories burnt. This is a very useful application.
+
+### Day - 39
+
+**Thoughts** : Today's project is a capstone project wherein I develop a Flight application which will send me notifications when flight prices are less then I have entered for the next six months. This application uses Sheety API to read/write data stored in our google sheets. Also, we have used Tequila by kiwi API to fetch IATA codes for destination cities as well as to fetch flight data. And finally I used Twilio data to send a notification alert if application finds low flight price.
