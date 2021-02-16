@@ -155,4 +155,4 @@ which tested all the concepts covered till now and building blackjack project wa
 
 ### Day - 38
 
-**Thoughts** : The project developed today is a workout tracker which let's you track you workouts and uses a NLP engine - Nutritionix which gives us the information about the workouts and calories burnt. This is a very useful application.
+**Thoughts** : The project developed today is a workout tracker which let's you track you workouts and uses a NLP engine provided by Nutritionix API which gives us the information about the workouts and calories burnt. This is a very useful application.
