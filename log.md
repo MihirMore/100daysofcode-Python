@@ -152,3 +152,7 @@ which tested all the concepts covered till now and building blackjack project wa
 ### Day - 37
 
 **Thoughts** : Today I learnt about the CRUD operations using API and also about API headers. The application built today is about tracking a new habit and posting the data to a graph created in pixela. This enables us to track our habits and how prodcutive we are.
+
+### Day - 38
+
+**Thoughts** : The project developed today is a workout tracker which let's you track you workouts and uses a NLP engine - Nutritionix which gives us the information about the workouts and calories burnt. This is a very useful application.
