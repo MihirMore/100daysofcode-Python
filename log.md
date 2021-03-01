@@ -148,3 +148,7 @@ which tested all the concepts covered till now and building blackjack project wa
 ### Day - 36
 
 **Thoughts** : Today was a practice porject to implement API calls and to build a stock news alert messaging application. This uses the alphavantage API and newsapi API to fetch the necessary data. It there is a considerable increase/decrease in the stock price then we get notification and also news regarding the company/stock.
+
+### Day - 37
+
+**Thoughts** : Today I learnt about the CRUD operations using API and also about API headers. The application built today is about tracking a new habit and posting the data to a graph created in pixela. This enables us to track our habits and how prodcutive we are.
