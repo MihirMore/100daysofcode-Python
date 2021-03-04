@@ -259,6 +259,6 @@
 ### Day - 37
 
 - Project-Name **Habit Tracker**
-- Description: This is a habit tracker application which uses the [pixela](https://pixe.la/) API to create a user graph based on some habit and can be updated everyday which can be seen on a graph like [here](https://github.com/MihirMore/100daysofcode-Python/blob/main/Day-37/Habit_Tracker/Screenshot%20(48).png) :dizzy:
+- Description: This is a habit tracker application which uses the [pixela](https://pixe.la/) API to create a user graph based on some habit and can be updated everyday which can be seen on a graph like [here](https://github.com/MihirMore/100daysofcode-Python/blob/main/Day-37/Habit_Tracker/Habit%20Tracker%20graph.png) :dizzy:
 - [Source-Code](https://github.com/MihirMore/100daysofcode-Python/tree/main/Day-37/Habit_Tracker)
 - [Live Version](https://replit.com/@MihirMore1/Habit-Tracker#main.py)
