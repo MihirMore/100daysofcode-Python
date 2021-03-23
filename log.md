@@ -144,3 +144,7 @@ which tested all the concepts covered till now and building blackjack project wa
 ### Day - 35
 
 **Thoughts** : Today's project took the knowledge of API's and keys and developed an rain alert messaging application. I have implemented the open weather map API and Twilio messaging API to detect if it's going to rain in next 12 hours and if it does it send out an alert and to notify to bring an umbrella.
+
+### Day - 36
+
+**Thoughts** : Today was a practice porject to implement API calls and to build a stock news alert messaging application. This uses the alphavantage API and newsapi API to fetch the necessary data. It there is a considerable increase/decrease in the stock price then we get notification and also news regarding the company/stock.
