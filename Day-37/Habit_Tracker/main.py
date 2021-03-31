@@ -1,11 +1,11 @@
 import requests
 
 PIXELA_ENDPOINT = "https://pixe.la/v1/users"
-PIXELA_TOKEN = "hwbehcvabefb&#$%^janwd"
+PIXELA_TOKEN = "your generated token"
 
 user_params = {
     "token": PIXELA_TOKEN,
-    "username": "mihirqd6345",
+    "username": "your_id",
     "agreeTermsOfService": "yes",
     "notMinor": "yes"
 }
