@@ -140,3 +140,8 @@ which tested all the concepts covered till now and building blackjack project wa
 ### Day - 34
 
 **Thoughts** : The project created today is a quiz GUI application which asks the player 10 different questions based on a category and keeps track of your score. This app uses OpenTriviaDB API to fetch data and shows all the questions in interactive form.
+
+
+### Day - 35
+
+**Thoughts** : Today's project took the knowledge of API's and keys and developed an rain alert messaging application. I have implemented the open weather map API and Twilio messaging API to detect if it's going to rain in next 12 hours and if it does it send out an alert and to notify to bring an umbrella.
