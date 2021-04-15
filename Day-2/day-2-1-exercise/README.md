@@ -34,7 +34,7 @@ e.g. When you hit **run**, this is what should happen:
 
 Before checking the solution, try copy-pasting your code into this repl: 
 
-[Test Code](https://repl.it/@appbrewery/day-2-1-test-your-code)
+[Test Code](https://replit.com/@MihirMore1/day-2-1-test-your-code#main.py)
 
 This repl includes my testing code that will check if your code meets this assignment's objectives. 
 
