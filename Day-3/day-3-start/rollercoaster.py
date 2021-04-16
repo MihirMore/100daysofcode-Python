@@ -7,7 +7,10 @@ if (height > 120):
   if (age < 12):
       bill = 5
   elif (12 <= age <= 18):
-      bill = 7          
+      bill = 7    
+  elif (45 <= age <= 55):
+      print("Have a free ride on us!")
+      bill = 0            
   else:
       bill = 12    
   photo = input("Would you like to have your photo? Y or N :").lower()
