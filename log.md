@@ -5,3 +5,6 @@
 
 ### Day - 2
 **Thoughts** : Today I learned about data types, mathematical operations and some string manipulation and f strings. Build a BMI calculator and life in weeks(a slightly dark project) program. The project of the day was Tip calculator which also takes in account what percent of bill you want to tip. Also practiced some python exercises from [Pynative](https://pynative.com/python-basic-exercise-for-beginners/) which tested some the concepts I learned earlier.
+
+### Day - 3
+**Thoughts** : Angela started with control flow with if-else loops and went on to practice abundant exercises. Learnt more about nested if-else loops, updated yesterday's BMI calculator. Also developed Pizza Order prize calculator and love calculator based on Buzzfeed's [article](https://www.buzzfeed.com/ariannarebolini/what-are-the-chances-your-crush-is-actually-your-true-love). And then went on to develop the treasure island project which includes nice ascii art.
