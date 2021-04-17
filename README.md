@@ -18,7 +18,7 @@
 - [Source-Code](https://github.com/MihirMore/100daysofcode-Python/blob/main/Day-3/Final-Project/treasure-island.py)
 - [Try-it-out](https://replit.com/@MihirMore1/treasure-island-start#main.py)
 
-## Day - 3
+## Day - 4
 - Project Name: **Rock Paper Scissor Game**
 - Description: It's a simple game of rock paper scissors. The computer uses a random function to chose.
 - [Source-Code](https://github.com/MihirMore/100daysofcode-Python/blob/main/Day-4/Final-Project/rock_paper_scissors.py)
