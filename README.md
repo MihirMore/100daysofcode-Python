@@ -14,7 +14,7 @@
 
 ## Day - 3
 - Project Name: Treasure Island
-- Description: This is a chose your own adventure game of sorts, The code makes use of conditional statements and intresting ascii art.
+- Description: This is a chose your own adventure game of sorts, The code makes use of conditional statements and interesting ascii art.
 - [Source-Code](https://github.com/MihirMore/100daysofcode-Python/blob/main/Day-3/Final-Project/treasure-island.py)
 - [Try-it-out](https://replit.com/@MihirMore1/treasure-island-start#main.py)
 
