@@ -8,3 +8,6 @@
 
 ### Day - 3
 **Thoughts** : Angela started with control flow with if-else loops and went on to practice abundant exercises. Learnt more about nested if-else loops, updated yesterday's BMI calculator. Also developed Pizza Order prize calculator and love calculator based on Buzzfeed's [article](https://www.buzzfeed.com/ariannarebolini/what-are-the-chances-your-crush-is-actually-your-true-love). And then went on to develop the treasure island project which includes nice ascii art.
+
+### Day - 4
+**Thoughts** : Learned about Random function today in Python. Did you knew that python uses Mersenne Twister behind the scenes for random function, Interesting! [Here's](https://en.wikipedia.org/wiki/Mersenne_Twister) it's wiki. Build some easy yet fun exercises like head-tails game, banker's roulette which is an interesting game among the indigeneous London bankers. Finally, created a rock, paper, scissor game which has ascii art and random choice by computer. 
