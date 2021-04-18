@@ -24,4 +24,8 @@
 - [Source-Code](https://github.com/MihirMore/100daysofcode-Python/blob/main/Day-4/Final-Project/rock_paper_scissors.py)
 - [Try-it-out](https://replit.com/@MihirMore1/rock-paper-scissors-start#main.py)
 
-
+## Day - 5
+- Project Name: **Random Password Generator**
+- Description: This program generates a strong password based on number of characters, numbers and special symbols required by an user.
+- [Source-Code](https://github.com/MihirMore/100daysofcode-Python/blob/main/Day-5/Final_Project/password_generator.py)
+- [Try-it-out](https://replit.com/@MihirMore1/password-generator-start#main.py)
