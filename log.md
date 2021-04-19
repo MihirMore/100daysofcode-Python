@@ -14,3 +14,6 @@
 
 ### Day - 5
 **Thoughts** : Day-5 started with loops in python, particularly for loops. The first exercise was for calculating average height using for loop. The next exercise was based on range function of for loops which was to calculate even numbers addition. Angela introduced an interview question FizzBuzz which I found out to be relatively easy. Finally, created a random password generator which takes input for characters, numbers and special symbols. Finally, concluded the day with some light practice freom [w3 resource](https://www.w3resource.com/python-exercises/python-basic-exercises.php) for python.  
+
+### Day - 6
+**Thoughts** :   
