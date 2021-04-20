@@ -13,7 +13,7 @@ end_of_game = False
 lives = 6
 
 #TODO-3: - Import the logo from hangman_art.py and print it at the start of the game.
-print (M.logo)
+
 #Testing code
 print(f'Pssst, the solution is {chosen_word}.')
 
@@ -27,8 +27,8 @@ while not end_of_game:
 
     #TODO-4: - If the user has entered a letter they've already guessed, print the letter and let them know.
     if guess in display:
-      print("You've already guessed this letter")
-      lives -= 1
+      print(f"You have already guessed: '{guess}'.")
+      
     #Check guessed letter
     for position in range(word_length):
         letter = chosen_word[position]
@@ -39,6 +39,7 @@ while not end_of_game:
     #Check if user is wrong.
     if guess not in chosen_word:
         #TODO-5: - If the letter is not in the chosen_word, print out the letter and let them know it's not in the word.
+        print(f"You've guessed a wrong letter. '{guess}' is not in word. You lose a life.")
         lives -= 1
         if lives == 0:
             end_of_game = True
