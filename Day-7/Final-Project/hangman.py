@@ -27,7 +27,7 @@ while not end_of_game:
 
     #TODO-4: - If the user has entered a letter they've already guessed, print the letter and let them know.
     if guess in display:
-      print("You have already guessed this letter")
+      print("You've already guessed this letter")
       lives -= 1
     #Check guessed letter
     for position in range(word_length):
