@@ -1,5 +1,5 @@
 ## 100 days of code (Python) adventures
-
+![Writing logs image](https://media.audext.com/wp-content/uploads/2020/09/expert-tips-for-writing-job-posts.jpg)
 ### Day - 1
 **Thoughts** : Started out with the 100 days of code [udemy course](https://www.udemy.com/course/100-days-of-code/) by Angela. Already knew some basics of python and was a nice refresher. Day 1 includes print, input statements and string manipulation. Also, did the practice exercises on [repl.it](https://replit.com/~). The projectt on day-1 encompasses all the concepts taught before and has set a starting point. Today I also studied some freecodecamp [python lectures](https://www.freecodecamp.org/learn/scientific-computing-with-python/) by Prof. Charles Severence. 
 
@@ -17,3 +17,9 @@
 
 ### Day - 6
 **Thoughts** :  Today started by learning about creating, defining and calling *functions*. The first exercise was hurdles in [reeborg's world](https://reeborg.ca/index_en.html). Thsese are a set of fascinating exercise which will test and help you with learning loops and functions in python. Then learned about while loops in python and did 2 more exercises on reeborg's world. The final project is about navigating reeborg along a maze with some conditions and actions to be performed. Also tested some edge cases where the code fails and fixed it with some help from Angela.
+
+### Day - 7
+**Thoughts** : Day - 7 exercises were different as compared to earlier day's exercises. On day 7 we built a *hangman* game and go on building it in steps; essentially breaking a bigger problem into finite easier exercises. Hangman game is a very good tester project to gauge the skills learned so far. Hangman game is an exciting game which also includes ascii art. :heart:
+
+
+
