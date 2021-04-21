@@ -5,7 +5,7 @@
 - Project Name: **Band name generator**
 - Description: This project helps you to create a band name for yourself. It uses the concept of string manipulation, variables assignment and naming :grimacing:
 - [Source-Code](https://github.com/MihirMore/100daysofcode-Python/blob/main/Day-1/Final_Project/band_name_generator.py)
-- [Try it out](https://replit.com/@MihirMore1/band-name-generator-start#main.py)
+- [Try it out](https://replit.com/@MihirMore1/band-name-generator-start?embed=1&output=1#main.py)
 
 ## Day - 2
 - Project Name: **Tip Calculator**
