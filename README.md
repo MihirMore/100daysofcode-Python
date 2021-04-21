@@ -42,3 +42,9 @@
 - Description: Hangman is a game where the player is presented with a set of blanks corresponding to the number of letters in the word. The player has 6 lives/chances to guess the word or else player loses.
 - [Source-Code](https://github.com/MihirMore/100daysofcode-Python/tree/main/Day-7/Final-Project)
 - [Try-it-out](https://replit.com/@MihirMore1/Day-7-Hangman-5-Start#main.py)
+
+## Day - 8 
+- Project Name: **Caesar Cipher**
+- Description: 
+- [Source-Code](https://github.com/MihirMore/100daysofcode-Python/tree/main/Day-8/Final-Project)
+- [Try-it-out](https://replit.com/@MihirMore1/caesar-cipher-4-start#main.py)
