@@ -29,3 +29,9 @@
 - Description: This program generates a strong password based on number of characters, numbers and special symbols required by an user.
 - [Source-Code](https://github.com/MihirMore/100daysofcode-Python/blob/main/Day-5/Final_Project/password_generator.py)
 - [Try-it-out](https://replit.com/@MihirMore1/password-generator-start#main.py)
+
+## Day - 6
+- Project Name: **Lost in Maze**
+- Description: This program is developed as a solution for Reeborg's Maze where based on certain set of conditions you have to find a path to final destination.
+- [Source-Code](https://github.com/MihirMore/100daysofcode-Python/blob/main/Day-6/Final_Hurdle/hurdle4.py)
+- [Try-it-out](https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Maze&url=worlds%2Ftutorial_en%2Fmaze1.json)
