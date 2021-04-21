@@ -18,3 +18,11 @@ def greet_with_name(name):
 
 greet_with_name("Mihir")
 
+def greet_with(name, location):
+  print(f"Hello! {name}")
+  print(f"What's it like in {location}?")
+
+
+greet_with("Mihir","Mumbai")
+print()
+greet_with(name = "Tom", location = "California")
