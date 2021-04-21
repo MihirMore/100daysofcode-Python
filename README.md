@@ -23,7 +23,7 @@
 - Project Name: **Rock Paper Scissor Game**
 - Description: It's a simple game of rock paper scissors. The computer uses a random function to chose :smile:
 - [Source-Code](https://github.com/MihirMore/100daysofcode-Python/blob/main/Day-4/Final-Project/rock_paper_scissors.py)
-- [Try-it-out](https://replit.com/@MihirMore1/rock-paper-scissors-start#main.py)
+- [Try-it-out](https://replit.com/@MihirMore1/rock-paper-scissors-start?embed=1&output=1#main.py)
 
 ## Day - 5
 - Project Name: **Random Password Generator**
