@@ -29,7 +29,7 @@
 - Project Name: **Random Password Generator**
 - Description: This program generates a strong password based on number of characters, numbers and special symbols required by an user :blush:
 - [Source-Code](https://github.com/MihirMore/100daysofcode-Python/blob/main/Day-5/Final_Project/password_generator.py)
-- [Try-it-out](https://replit.com/@MihirMore1/password-generator-start#main.py)
+- [Try-it-out](https://replit.com/@MihirMore1/password-generator-start?embed=1&output=1#main.py)
 
 ## Day - 6
 - Project Name: **Lost in Maze**
