@@ -11,13 +11,13 @@
 - Project Name: **Tip Calculator**
 - Description: You never will now need to calculate tip yourself. This calculator will help you to calculate tip and final bill according to your preferences :relieved:
 - [Source-Code](https://github.com/MihirMore/100daysofcode-Python/blob/main/Day-2/Final-Project/tip-calculator.py)
-- [Try-it-out](https://replit.com/@MihirMore1/tip-calculator-start#main.py)
+- [Try-it-out](https://replit.com/@MihirMore1/tip-calculator-start?embed=1&output=1#main.py)
 
 ## Day - 3
 - Project Name: **Treasure Island**
 - Description: This is a chose your own adventure game of sorts, The code makes use of conditional statements and interesting ascii art :sweat_smile:
 - [Source-Code](https://github.com/MihirMore/100daysofcode-Python/blob/main/Day-3/Final-Project/treasure-island.py)
-- [Try-it-out](https://replit.com/@MihirMore1/treasure-island-start#main.py)
+- [Try-it-out](https://replit.com/@MihirMore1/treasure-island-start?embed=1&output=1#main.py)
 
 ## Day - 4
 - Project Name: **Rock Paper Scissor Game**
