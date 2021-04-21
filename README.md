@@ -1,4 +1,5 @@
 # 100 days of code
+![100 days of code - image](https://letslearnabout.net/wp-content/uploads/2018/12/aaaaaaaaaaaaaaaaaaaaab.jpg)
 
 ## Day - 1
 - Project Name: **Band name generator**
