@@ -33,5 +33,5 @@
 ## Day - 6
 - Project Name: **Lost in Maze**
 - Description: This program is developed as a solution for Reeborg's Maze where based on certain set of conditions you have to find a path to final destination.
-- [Source-Code](https://github.com/MihirMore/100daysofcode-Python/blob/main/Day-6/Final_Hurdle/hurdle4.py)
+- [Source-Code](https://github.com/MihirMore/100daysofcode-Python/blob/main/Day-6/Final_Project/Lost_in_maze.py)
 - [Try-it-out](https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Maze&url=worlds%2Ftutorial_en%2Fmaze1.json)
