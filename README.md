@@ -45,6 +45,6 @@
 
 ## Day - 8 
 - Project Name: **Caesar Cipher**
-- Description: 
+- Description: *In cryptography, a Caesar cipher, also known as Caesar's cipher, the shift cipher, Caesar's code or Caesar shift, is one of the simplest and most widely known encryption techniques. It is a type of substitution cipher in which each letter in the plaintext is replaced by a letter some fixed number of positions down the alphabet. In this project we have developed the python code for caesar cipher which is divided in two parts i.e. encoding and decoding. Enjoy ciphering your messages :relaxed:* 
 - [Source-Code](https://github.com/MihirMore/100daysofcode-Python/tree/main/Day-8/Final-Project)
 - [Try-it-out](https://replit.com/@MihirMore1/caesar-cipher-4-start#main.py)
