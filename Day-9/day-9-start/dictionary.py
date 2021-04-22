@@ -33,3 +33,13 @@ for key in programming_dictionary:
 # Wipe an exisiting dictionary clean
 
 programming_dictionary = {}
+
+#############################################################################################################################
+
+# Nesting 
+
+capitals = {
+    "France" : "Paris",
+    "Germany" : "Berlin"
+    "India" : "Delhi"
+}
