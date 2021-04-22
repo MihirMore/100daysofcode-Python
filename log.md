@@ -16,10 +16,11 @@
 **Thoughts** : Day-5 started with loops in python, particularly for loops. The first exercise was for calculating average height using for loop. The next exercise was based on range function of for loops which was to calculate even numbers addition. Angela introduced an interview question FizzBuzz which I found out to be relatively easy. Finally, created a random password generator which takes input for characters, numbers and special symbols. Finally, concluded the day with some light practice freom [w3 resource](https://www.w3resource.com/python-exercises/python-basic-exercises.php) for python.  
 
 ### Day - 6
-**Thoughts** :  Today started by learning about creating, defining and calling *functions*. The first exercise was hurdles in [reeborg's world](https://reeborg.ca/index_en.html). Thsese are a set of fascinating exercise which will test and help you with learning loops and functions in python. Then learned about while loops in python and did 2 more exercises on reeborg's world. The final project is about navigating reeborg along a maze with some conditions and actions to be performed. Also tested some edge cases where the code fails and fixed it with some help from Angela.
+**Thoughts** : Today started by learning about creating, defining and calling *functions*. The first exercise was hurdles in [reeborg's world](https://reeborg.ca/index_en.html). Thsese are a set of fascinating exercise which will test and help you with learning loops and functions in python. Then learned about while loops in python and did 2 more exercises on reeborg's world. The final project is about navigating reeborg along a maze with some conditions and actions to be performed. Also tested some edge cases where the code fails and fixed it with some help from Angela.
 
 ### Day - 7
 **Thoughts** : Day - 7 exercises were different as compared to earlier day's exercises. On day 7 we built a *hangman* game and go on building it in steps; essentially breaking a bigger problem into finite easier exercises. Hangman game is a very good tester project to gauge the skills learned so far. Hangman game is an exciting game which also includes ascii art. :heart:
 
-
+### Day - 8 
+**Thoughts** : Started out with functions with inputs and learned what are arguments and parameters are. The exercises are awesome like paint can calculator and prime number checker. Then started with caesar cipher implementation. The encryption and decryption part is exciting and how we merge both into a single function. :godmode: Today was a 7/10 productive day, also walked 15,000 steps.:sunglasses:
 
