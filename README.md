@@ -53,4 +53,4 @@
 - Project Name: **Blind Auction**
 - Description: :bowtie:
 -  [Source-Code](https://github.com/MihirMore/100daysofcode-Python/tree/main/Day-9/Final-Project)
--  [Try-iy-out](https://replit.com/@MihirMore1/blind-auction-start?embed=1&output=1#main.py)
+-  [Try-it-out](https://replit.com/@MihirMore1/blind-auction-start?embed=1&output=1#main.py)
