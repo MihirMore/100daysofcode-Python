@@ -51,6 +51,6 @@
 
 ## Day - 9
 - Project Name: **Blind Auction**
-- Description: :bowtie:
+- Description: This project is about creating a silent auction where the bid amount is not disclosed until the final bid is made. It is implemented with dictionaries in python :bowtie:
 -  [Source-Code](https://github.com/MihirMore/100daysofcode-Python/tree/main/Day-9/Final-Project)
 -  [Try-it-out](https://replit.com/@MihirMore1/blind-auction-start?embed=1&output=1#main.py)
