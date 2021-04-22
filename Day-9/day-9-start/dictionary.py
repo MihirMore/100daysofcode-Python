@@ -43,3 +43,12 @@ capitals = {
     "Germany" : "Berlin",
     "India" : "Delhi"
 }
+
+# Nesting a list in dictionary
+
+travel_log = {
+    "France" : ["Paris" , "Lille" , "Dijon"] ,
+    "Germany" : ["Berlin", "Frankfurt" , "Munich"]
+}
+
+# 
