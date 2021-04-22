@@ -40,6 +40,6 @@ programming_dictionary = {}
 
 capitals = {
     "France" : "Paris",
-    "Germany" : "Berlin"
+    "Germany" : "Berlin",
     "India" : "Delhi"
 }
