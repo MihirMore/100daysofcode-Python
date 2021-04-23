@@ -10,6 +10,6 @@
 
 **Calculator Project** 
 
-Description: 
+Description: This project implements the basic operations of calculator namely addition, subtraction, multiplication and division. This program makes use of dictionary and functions in python.
 
 - [Live-version](https://replit.com/@MihirMore1/calculator?embed=1&output=1#main.py)
