@@ -41,4 +41,4 @@ This repl includes my testing code that will check if your code meets this assig
 
 # Solution
 
-[Replit Solution](https://repl.it/@appbrewery/day-10-1-solution)
+[Replit Solution](https://replit.com/@MihirMore1/day-10-1-exercise#main.py)
