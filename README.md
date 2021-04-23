@@ -54,3 +54,10 @@
 - Description: This project is about creating a silent auction where the bid amount is not disclosed until the final bid is made. It is implemented with dictionaries in python :bowtie:
 -  [Source-Code](https://github.com/MihirMore/100daysofcode-Python/tree/main/Day-9/Final-Project)
 -  [Try-it-out](https://replit.com/@MihirMore1/blind-auction-start?embed=1&output=1#main.py)
+
+## Day - 10
+- Project Name: **Calculator**
+- Description: This project implements the basic operations of calculator namely addition, subtraction, multiplication and division. This program makes use of dictionary and functions in python. :simple_smile:
+- [Source-Code]()
+- [Try-it-out](https://replit.com/@MihirMore1/calculator?embed=1&output=1#main.py)
+
