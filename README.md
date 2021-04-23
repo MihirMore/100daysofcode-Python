@@ -57,7 +57,7 @@
 
 ## Day - 10
 - Project Name: **Calculator**
-- Description: This project implements the basic operations of calculator namely addition, subtraction, multiplication and division. This program makes use of dictionary and functions in python :star:
+- Description: This project implements the basic operations of calculator namely addition, subtraction, multiplication and division. This program makes use of dictionary and functions in python :boom:
 - [Source-Code](https://github.com/MihirMore/100daysofcode-Python/tree/main/Day-10/Final-Project)
 - [Try-it-out](https://replit.com/@MihirMore1/calculator?embed=1&output=1#main.py)
 
