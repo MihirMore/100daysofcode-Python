@@ -24,3 +24,9 @@
 ### Day - 8 
 **Thoughts** : Started out with functions with inputs and learned what are arguments and parameters are. The exercises are awesome like paint can calculator and prime number checker. Then started with caesar cipher implementation. The encryption and decryption part is exciting and how we merge both into a single function. :godmode: Today was a 7/10 productive day, also walked 15,000 steps.:sunglasses:
 
+### Day - 9
+
+<!-- ### Day - 10
+ 
+### Day - 11 -->
+
