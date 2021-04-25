@@ -27,7 +27,9 @@
 ### Day - 9
 **Thoughts** : Today's day started with deep dive into the workings of dictionaries. Then created a grading program which applied the concept of dictionaries. Learned a very intriguing concept about list in dictionaries and dictionaries in list and nesting lists and dictionaries. Developed a silent auction program using the concepts of dictionaries and lists :sparkles: 
 
-<!-- ### Day - 10
+### Day - 10
+**Thoughts** : Learned about return statements in functions and how multiple return statements work. Coded a nice days in months exercise and learned about docstrings. Also discussed about print vs return statement and also about while loops, recursion and flags. Final project developed was calculator which included all th concepts used taught :heart_eyes:
+<!--
  
 ### Day - 11 -->
 
