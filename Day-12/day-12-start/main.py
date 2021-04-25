@@ -27,6 +27,17 @@ def power_up(health):
     portion_strength = 4
     health += portion_strength
     print(health)
+    print(player_health)
 
 power_up(player_health)    
+
+# There is no block scope in Python
+player_level = 3
+enemies = ['skeletons','zombies','demons']
+
+if player_level < 5:
+    new_enemy = enemies[0]
+    
+print(new_enemy)
+
 
