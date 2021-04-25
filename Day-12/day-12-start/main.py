@@ -41,3 +41,21 @@ if player_level < 5:
 print(new_enemy)
 
 
+# Modifying global scope variables
+new_enemy1 = 2
+def new_increase_enemies():
+    global new_enemy1
+    new_enemy1 += 1
+    print(f"enemies inside function: {new_enemy1}")
+
+new_increase_enemies()
+print(f"enemies outside function: {new_enemy1}")    
+
+# Safer way to modify 
+new_enemy2 = 2
+def new_increase_enemies1():
+    print(f"enemies inside function: {new_enemy2}")
+    return new_enemy2 + 1
+
+new_enemy2 = new_increase_enemies1()
+print(f"enemies outside function: {new_enemy2}")    
