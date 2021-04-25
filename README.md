@@ -69,7 +69,7 @@
 
 ## Day - 12
 - Project Name: **Guessing Name**
-- Description:  This is a fun game where you have to guess a number between the range provided. The computer will prompt you if you have guessed the number too high or too low. If you have guessed the number correctly you win :dizzy: :fire:
-- [Source-Code]()
-- [Try-it-out]()
+- Description:  This is a fun game where you have to guess a number between the range provided. The computer will prompt you if you have guessed the number too high or too low.   If you have guessed the number correctly you win :dizzy: :fire:
+- [Source-Code](https://github.com/MihirMore/100daysofcode-Python/tree/main/Day-12/Final-Project)
+- [Try-it-out](https://replit.com/@MihirMore1/guessing-game?embed=1&output=1#main.py)
 
