@@ -15,7 +15,9 @@ if user_level == 'easy':
   user_attempts = 10  
 elif user_level == 'hard':
   user_attempts = 5 
-
+else:
+    print("You have entered an invalid input. Bye!")
+    sys.exit()
 while user_attempts > 0:  
   print(f"You have {user_attempts} attempts remaining to guess the number.")
   user_guessed = int(input("Make a guess: "))
