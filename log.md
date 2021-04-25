@@ -34,5 +34,5 @@
 **Thoughts** : Day - 11 culminated in the first capstone project of the [course](https://www.udemy.com/course/100-days-of-code/) 
 which tested all the concepts covered till now and building blackjack project was quite fun :boom: This is where the hard-work starts to pay off and when you nail it you'll be elated by how much you have achieved :sunglasses:
 
-<!-- ### Day - 12
-**Thoughts** :  -->
+### Day - 12
+**Thoughts** : Today I learnt about scopes in Python. Local scope and Global scopes makes a lot of difference if you are creating a complex code and want to maintain flow. This is very useful as you can assign all the global variables in the beginning and just code on. After that developed today's project which is a number guessing game. Today was a productive day! :innocent:
