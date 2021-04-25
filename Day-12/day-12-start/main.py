@@ -19,3 +19,14 @@ drink_potion()
 
 # print(portion_strength) This will throw an error 'portion_strength not defined' since it's outside the scope of function.
 
+# Global Scope
+
+player_health = 10
+
+def power_up(health):
+    portion_strength = 4
+    health += portion_strength
+    print(health)
+
+power_up(player_health)    
+
