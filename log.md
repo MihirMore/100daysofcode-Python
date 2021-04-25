@@ -32,5 +32,5 @@
 
 ### Day - 11
 **Thoughts** : Day - 11 culminated in the first capstone project of the [course](https://www.udemy.com/course/100-days-of-code/) 
-which tested all the concepts covered till now and building blackjack project was quite fun :boom:
+which tested all the concepts covered till now and building blackjack project was quite fun :boom: This is where the hard-work starts to pay off and when you nail it you'll be elated by how much you have achieved :sunglasses:
 
