@@ -7,7 +7,7 @@ print("Welcome to the Guessing Game!")
 print("I'm guessing a number between 1 and 100.")
 
 value = random.randint(1,100)
-print(value)
+
 
 user_level = input("Choose a difficulty. Type 'easy' or 'hard': ")
 user_attempts = 0
@@ -33,6 +33,6 @@ while user_attempts > 0:
 
 if user_attempts == 0:
   print("You've run out of guesses, you lose.")
-   
+  print(f"The secret number is {value}.")
 
 
