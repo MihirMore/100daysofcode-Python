@@ -29,7 +29,8 @@
 
 ### Day - 10
 **Thoughts** : Learned about return statements in functions and how multiple return statements work. Coded a nice days in months exercise and learned about docstrings. Also discussed about print vs return statement and also about while loops, recursion and flags. Final project developed was calculator which included all th concepts used taught :heart_eyes:
-<!--
- 
-### Day - 11 -->
+
+### Day - 11
+**Thoughts** : Day - 11 culminated in the first capstone project of the [course](https://www.udemy.com/course/100-days-of-code/) 
+which tested all the concepts covered till now and building blackjack project was quite fun :boom:
 
