@@ -14,4 +14,4 @@ Fix the code so that it works and passes the tests when you submit.
 
 # Solution
 
-[Final code](https://repl.it/@appbrewery/day-13-1-solution)
+[Final code](https://github.com/MihirMore/100daysofcode-Python/blob/main/Day-13/day-13-exercise-2/main.py)
