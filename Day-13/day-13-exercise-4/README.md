@@ -23,5 +23,5 @@ There is more than one fix required.
 
 # Solution
 
-[Final Solution](https://repl.it/@appbrewery/day-13-3-solution)
+[Final Solution](https://github.com/MihirMore/100daysofcode-Python/blob/main/Day-13/day-13-exercise-4/main.py)
 
