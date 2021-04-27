@@ -73,3 +73,15 @@
 - [Source-Code](https://github.com/MihirMore/100daysofcode-Python/tree/main/Day-12/Final-Project)
 - [Try-it-out](https://replit.com/@MihirMore1/guessing-game?embed=1&output=1#main.py)
 
+<!-- ## Day - 13
+- Project Name: ****
+- Description: This project is not a part of this course as there is no project on Day-13. 
+- [Source-Code]()
+- [Try-it-out]() -->
+
+## Day -14 
+-  Project Name: **Higher or Lower**
+- Description:  Higher-Lower game is played originally by comparing the average monthly web searches for different people, organizations, and websites. This implemented version   takes into account the number of followers of various people and organisations on Instragram. Try this game and if you have fun share with your friends :heart:
+- [Source-Code](https://github.com/MihirMore/100daysofcode-Python/tree/main/Day-14/FInal_Project)
+- [Try-it-out](https://replit.com/@MihirMore1/higher-lower-game?embed=1&output=1#main.py) 
+ 
