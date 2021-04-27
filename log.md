@@ -36,3 +36,9 @@ which tested all the concepts covered till now and building blackjack project wa
 
 ### Day - 12
 **Thoughts** : Today I learnt about scopes in Python. Local scope and Global scopes makes a lot of difference if you are creating a complex code and want to maintain flow. :innocent: This is very useful as you can assign all the global variables in the beginning and just code on. After that developed today's project which is a number guessing game. Today was a productive day! :heart_eyes:
+
+### Day - 13
+**Thoughts** : Debugging is essential for any developer. Angela went over various ways you can debug your code. All the exercises are interactive and you can learn from it. Also practiced some exercises from [Python Practice](https://www.practicepython.org/).
+
+### Day - 14
+**Thoughts** : Today's final project is an awesome game called as higher or lower. You can play original game [here](http://www.higherlowergame.com/). The game I implemented uses data from Instagram and is static so it is data when I developed. It was a farily challenging project and loved the concept of the game. You can play my game [here](https://replit.com/@MihirMore1/higher-lower-game?embed=1&output=1#main.py) :heart:
