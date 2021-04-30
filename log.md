@@ -42,3 +42,6 @@ which tested all the concepts covered till now and building blackjack project wa
 
 ### Day - 14
 **Thoughts** : Today's final project is an awesome game called as higher or lower. You can play original game [here](http://www.higherlowergame.com/). The game I implemented uses data from Instagram and is static so it is data when I developed. It was a farily challenging project and loved the concept of the game. You can play my game [here](https://replit.com/@MihirMore1/higher-lower-game?embed=1&output=1#main.py) :heart:
+
+### Day -15 
+**Thoughts** : This is day one of intermediate level python and started out with installing Pycharm and getting to know it's interface and functions. Today's final project is Coffee machine which uses all the concepts of functions and loops to construct a coffee machine flow.
