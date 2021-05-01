@@ -22,6 +22,14 @@ for measure in range(3, 11):
     for travel in range(0, measure):
         tim.forward(100)
         tim.right(angle)
+        
+tim.pensize(width=6)
+for _ in range(100):
+    direction = random.randint(1, 271)
+    color = random.choice(colors)
+    tim.color(color)  
+    tim.setheading(direction)
+    tim.forward(20)
 
 
 
