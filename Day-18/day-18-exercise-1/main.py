@@ -23,17 +23,18 @@ colors = ["red","green","blue","orange","purple","pink","yellow","gold","cyan2",
     'MediumOrchid4', 'DarkOrchid1', 'DarkOrchid2', 'DarkOrchid3', 'DarkOrchid4',
     'purple1', 'purple2', 'purple3', 'purple4', 'MediumPurple1', 'MediumPurple2']
 
-# for measure in range(3, 11):
-#     color = random.choice(colors)
-#     angle = 360 // measure
-#     tim.color(color)    
-#     for travel in range(0, measure):
-#         tim.forward(100)
-#         tim.right(angle)
+for measure in range(3, 11):
+    color = random.choice(colors)
+    angle = 360 // measure
+    tim.color(color)    
+    for travel in range(0, measure):
+        tim.forward(100)
+        tim.right(angle)
 
 directions = [0, 90, 180, 270]
 tim.pensize(width=6)
-for _ in range(100):    
+tim.speed(speed=6)
+for _ in range(200):    
     color = random.choice(colors)
     tim.color(color)  
     tim.setheading(random.choice(directions))
