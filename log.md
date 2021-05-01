@@ -50,4 +50,4 @@ which tested all the concepts covered till now and building blackjack project wa
 **Thoughts** : Today's task was to make the same project of coffee machine but by using the oops concepts. The exercises were related to how to use the other modules and how to create and use objects and access their attributes and parameters. Today was a productive day
 
 ### Day - 17
-**Thoughts** : Learned how to create your own class in Python and how to create other functions in the class. Also created a quiz game which takes data from one file and processes it in another file. 
+**Thoughts** : Learned how to create your own class in Python and how to create other functions in the class. Also created a quiz game which takes data from one file and processes it in another file. Quite a fun game to try and we can also update the questions from TriviaDB.
