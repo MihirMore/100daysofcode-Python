@@ -14,8 +14,7 @@ tim.shape(name="turtle")
 #     tim.penup()
 #     tim.forward(8)
 colors = ["red","green","blue","orange","purple","pink","yellow","gold","cyan2","aquamarine","cornflowerblue","lavenderblush3"]
-tim.setpos(-80, -80)
-print(tim.position())
+
 for measure in range(3, 11):
     color = random.choice(colors)
     angle = 360 // measure
@@ -24,9 +23,11 @@ for measure in range(3, 11):
         tim.forward(100)
         tim.right(angle)
 
+
+
 screen = Screen()
 screen.exitonclick()
-screen.colormode(255)
+
 
 
 
