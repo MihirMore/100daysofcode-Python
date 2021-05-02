@@ -51,3 +51,6 @@ which tested all the concepts covered till now and building blackjack project wa
 
 ### Day - 17
 **Thoughts** : Learned how to create your own class in Python and how to create other functions in the class. Also created a quiz game which takes data from one file and processes it in another file. Quite a fun game to try and we can also update the questions from TriviaDB.
+
+### Day - 18
+**Thoughts** : Started with learning about Turtle Graphics in Python which provides us with a GUI. Worked on with creating different patterns by using methods from the turtle graphics and did some exercises for moving turtle, drawing spirograph and generating a random walk. The final project is an interesting piece of art by Damien Hirst and recreating the art using the turtle graphics was awesome.
