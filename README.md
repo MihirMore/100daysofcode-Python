@@ -102,3 +102,11 @@
 - Description: This is a simple game of quiz where you have to answer true or false to the questions asked. The implementation is by using oop concept and to practice how easier it is to use modular code and to replace certain components of the code without changing other parts :star:
 - [Source-Code](https://github.com/MihirMore/100daysofcode-Python/tree/main/Day-17/Final-Project)
 - [Try-it-out](https://replit.com/@MihirMore1/quiz-game?embed=1&output=1#main.py)
+
+
+## Day - 18
+- Project Name: **Hirat Spot Painting**
+- Description: This project works on [Turtle Graphics](https://docs.python.org/3/library/turtle.html) and uses an external library called [colorgram](https://pypi.org/project/colorgram.py/) to fetch the color pallete of world-famous Damien Hirst [spot paintings](https://www.damienhirst.com/texts1/series/spots) and draws the pattern :art:
+- [Source-Code](https://github.com/MihirMore/100daysofcode-Python/tree/main/Day-18/Final-Project)
+- [Try-it-out]()
+
