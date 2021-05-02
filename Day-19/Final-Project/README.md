@@ -13,7 +13,7 @@
 
 ```
 
-**Description** : 
+**Description** : This project is based on the [Turtle Graphics](https://docs.python.org/3/library/turtle.html) module and makes use of text input popup to take bets and sets random speed for turtles. 
 
 - [Live-version](https://replit.com/@MihirMore1/Turtle-Race#main.py)
 
