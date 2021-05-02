@@ -110,3 +110,8 @@
 - [Source-Code](https://github.com/MihirMore/100daysofcode-Python/tree/main/Day-18/Final-Project)
 - [Try-it-out](https://replit.com/@MihirMore1/Hirstpainting#main.py)
 
+### Day - 19
+- Project Name: **Betting - Turtle Race**
+- Description: This project is based on the [Turtle Graphics](https://docs.python.org/3/library/turtle.html) module and makes use of text input popup to take bets and sets random speed for turtles. 
+- [Source-Code](https://github.com/MihirMore/100daysofcode-Python/tree/main/Day-19/Final-Project)
+- [Live-Version](https://replit.com/@MihirMore1/Turtle-Race#main.py)
