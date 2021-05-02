@@ -1,19 +1,19 @@
 # 100 days of code - Challenge
 ![100 days of code - image](https://letslearnabout.net/wp-content/uploads/2018/12/aaaaaaaaaaaaaaaaaaaaab.jpg)
 
-## Day - 1
+### Day - 1
 - Project Name: **Band name generator**
 - Description: This project helps you to create a band name for yourself. It uses the concept of string manipulation, variables assignment and naming :grimacing:
 - [Source-Code](https://github.com/MihirMore/100daysofcode-Python/blob/main/Day-1/Final_Project/band_name_generator.py)
 - [Try it out](https://replit.com/@MihirMore1/band-name-generator-start?embed=1&output=1#main.py)
 
-## Day - 2
+### Day - 2
 - Project Name: **Tip Calculator**
 - Description: You never will now need to calculate tip yourself. This calculator will help you to calculate tip and final bill according to your preferences :relieved:
 - [Source-Code](https://github.com/MihirMore/100daysofcode-Python/blob/main/Day-2/Final-Project/tip-calculator.py)
 - [Try-it-out](https://replit.com/@MihirMore1/tip-calculator-start?embed=1&output=1#main.py)
 
-## Day - 3
+### Day - 3
 - Project Name: **Treasure Island**
 - Description: This is a chose your own adventure game of sorts, The code makes use of conditional statements and interesting ascii art :sweat_smile:
 - [Source-Code](https://github.com/MihirMore/100daysofcode-Python/blob/main/Day-3/Final-Project/treasure-island.py)
