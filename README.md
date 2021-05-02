@@ -105,7 +105,7 @@
 
 
 ## Day - 18
-- Project Name: **Hirat Spot Painting**
+- Project Name: **Hirst Spot Painting**
 - Description: This project works on [Turtle Graphics](https://docs.python.org/3/library/turtle.html) and uses an external library called [colorgram](https://pypi.org/project/colorgram.py/) to fetch the color pallete of world-famous Damien Hirst [spot paintings](https://www.damienhirst.com/texts1/series/spots) and draws the pattern :art:
 - [Source-Code](https://github.com/MihirMore/100daysofcode-Python/tree/main/Day-18/Final-Project)
 - [Try-it-out](https://replit.com/@MihirMore1/Hirstpainting#main.py)
