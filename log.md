@@ -54,3 +54,6 @@ which tested all the concepts covered till now and building blackjack project wa
 
 ### Day - 18
 **Thoughts** : Started with learning about Turtle Graphics in Python which provides us with a GUI. Worked on with creating different patterns by using methods from the turtle graphics and did some exercises for moving turtle, drawing spirograph and generating a random walk. The final project is an interesting piece of art by Damien Hirst and recreating the art using the turtle graphics was awesome.
+
+### Day - 19
+**Thoughts** : Moved the learning further about Turtle Graphics and how to move the Turtle in a co-ordinate system style. Also learnt about event listeners and how to control the turtle 
