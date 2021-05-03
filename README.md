@@ -115,3 +115,10 @@
 - Description: This project is based on the [Turtle Graphics](https://docs.python.org/3/library/turtle.html) module and makes use of text input popup to take bets and sets random speed for turtles. 
 - [Source-Code](https://github.com/MihirMore/100daysofcode-Python/tree/main/Day-19/Final-Project)
 - [Live-Version](https://replit.com/@MihirMore1/Turtle-Race#main.py)
+
+
+### Day - 20
+- Project Name: **Snake-Game Part-I**
+- Description: This project is a 2-part series where we are achieving the full functionality of [snake game](https://en.wikipedia.org/wiki/Snake_(video_game_genre)). Today I have developed the functionality of moving the snake and controlling it with our keyboard :imp:  
+- [Source-Code](https://github.com/MihirMore/100daysofcode-Python/tree/main/Day-20/Final-Project)
+- [Live-Version]()
