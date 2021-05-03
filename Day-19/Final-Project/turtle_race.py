@@ -34,10 +34,10 @@ while is_race_on:
             winning_color = turtle.pencolor()
             if winning_color == user_bet:
                 print(f"You've won! The winning turtle is {winning_color}.")
-                turtle.write(f"You have won! The winner is {winning_color}", font=("Calibri", 16, "bold"))
+                turtle.write(f"You have won! The winner is {winning_color}", align="left", move=True, font=("Calibri", 16, "bold"))
             else:
                 print(f"You've lost! The winning turtle is {winning_color}.") 
-                turtle.write(f"You have lost. The winner is {winning_color}", font=("Calibri", 16, "bold"))   
+                turtle.write(f"You have lost. The winner is {winning_color}", align="left",  move=True, font=("Calibri", 16, "bold"))   
 
     for turtle in all_turtles:
         random_distance = random.randint(1, 10)
