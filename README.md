@@ -121,4 +121,4 @@
 - Project Name: **Snake-Game Part-I**
 - Description: This project is a 2-part series where we are achieving the full functionality of [snake game](https://en.wikipedia.org/wiki/Snake_(video_game_genre)). Today I have developed the functionality of moving the snake and controlling it with our keyboard :imp:  
 - [Source-Code](https://github.com/MihirMore/100daysofcode-Python/tree/main/Day-20/Final-Project)
-- [Live-Version]()
+- [Live-Version](https://replit.com/@MihirMore1/Snake-I#main.py)
