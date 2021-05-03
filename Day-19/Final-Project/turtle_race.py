@@ -6,7 +6,7 @@ screen = Screen()
 screen.setup(width=600, height=500)
 colors = ["red", "orange", "gold","green","blue", "purple"]
 all_turtles = []
-
+screen.title("Turtle Race")
 user_bet = screen.textinput(title="Make your bet", prompt="Which turtle is going to win the race? Enter a colour: ")
 print(user_bet)
 
@@ -34,10 +34,12 @@ while is_race_on:
             winning_color = turtle.pencolor()
             if winning_color == user_bet:
                 print(f"You've won! The winning turtle is {winning_color}.")
-                turtle.write(f"You have won! The winner is {winning_color}", align="left", move=True, font=("Calibri", 16, "bold"))
+                turtle.goto(-150, 100)
+                turtle.write(f"You have won! The winner is {winning_color}", align="left", move=False, font=("Calibri", 16, "bold"))
             else:
                 print(f"You've lost! The winning turtle is {winning_color}.") 
-                turtle.write(f"You have lost. The winner is {winning_color}", align="left",  move=True, font=("Calibri", 16, "bold"))   
+                turtle.goto(-150, 100)
+                turtle.write(f"You have lost. The winner is {winning_color}", align="left",  move=False, font=("Calibri", 16, "bold"))   
 
     for turtle in all_turtles:
         random_distance = random.randint(1, 10)
