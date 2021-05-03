@@ -19,6 +19,6 @@
 
 ```
 
-**Description** :
+**Description** : This project is a 2-part series where we are achieving the full functionality of snake game. Today I have developed the functionality of moving the snake and controlling it with our keyboard :imp:
 
 - [Live-Version]() 
