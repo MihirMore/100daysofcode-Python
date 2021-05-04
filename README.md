@@ -122,3 +122,9 @@
 - Description: This project is a 2-part series where we are achieving the full functionality of [snake game](https://en.wikipedia.org/wiki/Snake_(video_game_genre)). Today I have developed the functionality of moving the snake and controlling it with our keyboard :imp:  
 - [Source-Code](https://github.com/MihirMore/100daysofcode-Python/tree/main/Day-20/Final-Project)
 - [Live-Version](https://replit.com/@MihirMore1/Snake-I#main.py)
+
+### Day - 21
+- Project Name: **Snake Game**
+- Description: This is the completed project of what was developed on day-20. This game has all the functionalities of a snake game. In this part, we have added food for our snake, added a scoreboard and also added walls and collision detection. Enjoy the game and mention your highest score :snake:
+- [Source-Code](https://github.com/MihirMore/100daysofcode-Python/tree/main/Day-21/Final-Project)
+- [Live-Version](https://replit.com/@MihirMore1/Snake-Game?embed=1&output=1#main.py)
