@@ -1,5 +1,6 @@
-## 100 days of code (Python) adventures
+# 100 days of code (Python) adventures
 ![Writing logs image](https://media.audext.com/wp-content/uploads/2020/09/expert-tips-for-writing-job-posts.jpg)
+
 ### Day - 1
 **Thoughts** : Started out with the 100 days of code [udemy course](https://www.udemy.com/course/100-days-of-code/) by Angela. Already knew some basics of python and was a nice refresher. Day 1 includes print, input statements and string manipulation. Also, did the practice exercises on [repl.it](https://replit.com/~). The projectt on day-1 encompasses all the concepts taught before and has set a starting point. Today I also studied some freecodecamp [python lectures](https://www.freecodecamp.org/learn/scientific-computing-with-python/) by Prof. Charles Severence. 
 
@@ -56,4 +57,8 @@ which tested all the concepts covered till now and building blackjack project wa
 **Thoughts** : Started with learning about Turtle Graphics in Python which provides us with a GUI. Worked on with creating different patterns by using methods from the turtle graphics and did some exercises for moving turtle, drawing spirograph and generating a random walk. The final project is an interesting piece of art by Damien Hirst and recreating the art using the turtle graphics was awesome.
 
 ### Day - 19
-**Thoughts** : Moved the learning further about Turtle Graphics and how to move the Turtle in a co-ordinate system style. Also learnt about event listeners and how to control the turtle using a keyboard. Also, went over how to create and use multiple instances of an object. The final project was developed by using multiple instances of Turtle() and random(). The user places bet over a turtle and turtle moves randomly at a speed between 1,10. One the most exciting project I've built in the challenge. 
+**Thoughts** : Moved the learning further about Turtle Graphics and how to move the Turtle in a co-ordinate system style. Also learnt about event listeners and how to control the turtle using a keyboard. Also, went over how to create and use multiple instances of an object. The final project was developed by using multiple instances of Turtle() and random(). The user places bet over a turtle and turtle moves randomly at a speed between 1,10. One the most exciting project I've built in the challenge.
+
+### Day - 20
+**Thoughts** : Learned a very important concept of inheritance and how it helps to use assign attributes and implement methods of super class. The project I built today is a classic [snake game](https://en.wikipedia.org/wiki/Snake_(video_game_genre)) originally developed by Gremiln as Blockade and then preloaded by Nokia where it got insanely famous. I developed this game in 2-day parts where today I just tackled how to show a snake and control the snake with keyboard inputs.
+
