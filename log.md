@@ -62,3 +62,5 @@ which tested all the concepts covered till now and building blackjack project wa
 ### Day - 20
 **Thoughts** : Learned a very important concept of inheritance and how it helps to use assign attributes and implement methods of super class. The project I built today is a classic [snake game](https://en.wikipedia.org/wiki/Snake_(video_game_genre)) originally developed by Gremiln as Blockade and then preloaded by Nokia where it got insanely famous. I developed this game in 2-day parts where today I just tackled how to show a snake and control the snake with keyboard inputs.
 
+### Day - 21
+**Thoughts** : Completed the snake game and added some more functionalities like border, controlling speed of snake and making a new shape for snake head. This project has been a step-up for learning how to create games and customize the UI. This project has been a good learning experience. This project also highlights the importance of breaking the problem into smaller simpler parts and solving them to create a big project.
