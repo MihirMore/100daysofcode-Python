@@ -1,10 +1,11 @@
-from turtle import Turtle
+from turtle import Turtle, Screen
 STARTING_POSITIONS = [(0, 0), (-20, 0), (-40, 0)]
 MOVE_DISTANCE = 20
 UP = 90
 DOWN = 270
 LEFT = 180
 RIGHT = 0
+SHAPE = ((-10, -10), (-10, 10), (0, 20), (10, 10), (10, -10))
 
 class Snake:
 
@@ -12,12 +13,19 @@ class Snake:
         self.segments = []
         self.create_snake()
         self.head = self.segments[0]
+        
+    def snake_head(self):
+        snake_head_diamond = Screen()
+        snake_head_diamond.register_shape("diamond", SHAPE)
+        self.segments[0].shape("diamond")
+            
 
     def create_snake(self):
         for position in STARTING_POSITIONS:
-            self.add_segment(position)
-    
-    def add_segment(self, position):
+            self.add_segment(position)            
+        self.snake_head()
+
+    def add_segment(self, position):        
         new_snake = Turtle(shape="square")
         if len(self.segments) % 2 == 0:
             new_snake.color("darkolivegreen")
