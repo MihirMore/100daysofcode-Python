@@ -126,5 +126,5 @@
 ### Day - 21
 - Project Name: **Snake Game**
 - Description: This is the completed project of what was developed on day-20. This game has all the functionalities of a snake game. In this part, we have added food for our snake, added a scoreboard and also added walls and collision detection. Enjoy the game and mention your highest score :snake:
-- [Source-Code](https://github.com/MihirMore/100daysofcode-Python/tree/main/Day-21/FInal-Project)
+- [Source-Code](https://github.com/MihirMore/100daysofcode-Python/tree/main/Day-21/Final_project)
 - [Live-Version](https://replit.com/@MihirMore1/Snake-Game?embed=1&output=1#main.py)
