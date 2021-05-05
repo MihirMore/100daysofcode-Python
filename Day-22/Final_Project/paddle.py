@@ -4,12 +4,12 @@ DOWN = 270
 
 class Paddle(Turtle):
     
-    def __init__(self, position):
+    def __init__(self, position, color):
         super().__init__()
         self.penup()        
         self.shape("square")
         self.goto(position)
-        self.color("white")
+        self.color(color)
         self.shapesize(stretch_wid = 5, stretch_len = 1)
         
 
