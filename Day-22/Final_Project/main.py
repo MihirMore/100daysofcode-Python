@@ -2,6 +2,7 @@ from turtle import Screen
 from paddle import Paddle
 from ball import Ball
 from scoreboard import Scoreboard
+from midline import Midline
 import time
 
 screen = Screen()
@@ -14,6 +15,7 @@ l_paddle = Paddle((-350,0), "dodgerblue")
 r_paddle = Paddle((350,0), "chartreuse")
 ball = Ball()
 scoreboard = Scoreboard()
+midline = Midline()
 
 screen.listen()
 screen.onkey(r_paddle.up, "Up")
