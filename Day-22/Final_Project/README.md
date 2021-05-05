@@ -11,6 +11,6 @@ U|  _"\ u  ___     | \ |"| U /"___|u    U|  _"\ u  \/"_ \/ | \ |"| U /"___|u
 
 ```
 
-**Description** : 
+**Description** : Pong game was originally developed by Atari and released in 1972 created by Allan Alcorn. This game gained a lot of popularity amongst bars and clubs. I have implemented a simple version of it here. This game has been created by using Turtle graphics, hope you enjoy it! :sparkles:
 
 - [Try-it-out](https://replit.com/@MihirMore1/Ping-Pong-Game#main.py)
