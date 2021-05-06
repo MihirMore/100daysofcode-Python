@@ -19,3 +19,7 @@ X8888 X8888  88888   "*8%-    us888u.   .@88u    888R      X8888 X8888  88888   
                                                                                     
 ```
 
+
+**Description**: This project is the first automation project I tried and I feel confident you can also give it a try. I have a scenario where I've to send birthday invitations to my friends, however, I'm quite busy and want to automate the process of writing the names of friends in a file where I have already created a template. So, this script will run and create the invitations ready to be send to my friends and I've saved lot of time :innocent:
+
+- [Live-Version](https://replit.com/@MihirMore1/Mail-Merge#main.py)
