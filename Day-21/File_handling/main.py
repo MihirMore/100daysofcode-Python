@@ -1,7 +1,7 @@
-# with open("my_file.txt") as fhand:
+with open("my_file.txt") as fhand:
 
-#     contents = fhand.read()
-#     print(contents)
+    contents = fhand.read()
+    print(contents)
 
 
 with open("my_file.txt", mode = "a") as fhand:
