@@ -11,3 +11,9 @@ print(data_list)
 print(sum(data_list) / len(data_list))
 
 print(data["temp"].max())
+
+# Get data in Columns
+print(data["condition"])
+print(data.condition)
+
+print(data[data.day == "Thursday"])
