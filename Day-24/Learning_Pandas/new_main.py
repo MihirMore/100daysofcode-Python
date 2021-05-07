@@ -22,3 +22,22 @@ maximum = data.temp.max()
 print(data[data.temp == maximum])
 
 print(data[data.temp == data.temp.max()])
+
+monday = data[data.day == "Monday"]
+print(monday.condition)
+
+monday_day = data[data.day == "Monday"]
+monday_temp = monday_day.temp
+monday_f = (9 / 5 * monday_temp) + 32
+print(monday_f)
+
+
+# Create a dataframe from scratch
+
+data_dictionary = {
+    "students": ["Amy", "James", "Jon"],
+    "scores": [76, 56, 65]
+}
+
+data1 = pandas.DataFrame(data_dictionary)
+data1.to_csv("new_data.csv")
