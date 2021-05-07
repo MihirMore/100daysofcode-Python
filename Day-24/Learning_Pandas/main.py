@@ -1,4 +1,4 @@
-Using file function to read file
+# Using file function to read file
 with open("weather_data.csv", "r") as fhand:
     initial_data = fhand.readlines()
 
