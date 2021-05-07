@@ -8,3 +8,14 @@ for items in initial_data:
 
 print(final_data)      
 
+import csv
+
+with open("weather_data.csv") as data_file:
+    data = csv.reader(data_file)
+    # print(data)
+    temperatures = []
+    for row_data in data:
+        if row_data[1] != "temp":
+            temperatures.append(int(row_data[1]))
+    print(temperatures)    
+
