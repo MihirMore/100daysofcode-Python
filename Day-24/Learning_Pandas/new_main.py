@@ -17,3 +17,6 @@ print(data["condition"])
 print(data.condition)
 
 print(data[data.day == "Thursday"])
+
+maximum = data.temp.max()
+print(data[data.temp == maximum])
