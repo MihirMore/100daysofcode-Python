@@ -17,6 +17,9 @@ print(new_list1)
 new_range = [num*2 for num in range(1, 5)]
 print(new_range)
 
-name_list = ["Alex", "Caroline", "Eleanor", "Max", "Beth"]
+name_list = ["Alex", "Caroline", "Eleanor", "Max", "Beth", "Freddie"]
 new_name_list = [name for name in name_list if len(name)<5]
 print(new_name_list)
+
+capital_name = [name.upper() for name in name_list if len(name) > 5]
+print(capital_name)
