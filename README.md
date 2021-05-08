@@ -168,6 +168,6 @@
 ### Day - 24
 
 - Project Name: **US States Quiz**
-- Description: This is a U.S. states game quiz where you have to guess the names of all the states of the US. It's also a learning tool where once you can use 'exit' keyword it will generate a CSV file which will have all the names of states you missed. So try this game with your family and friends 
-- [Source-Code]()
+- Description: This is a U.S. states game quiz where you have to guess the names of all the states of the US. It's also a learning tool where once you can use 'exit' keyword it will generate a CSV file which will have all the names of states you missed. So try this game with your family and friends :octocat:
+- [Source-Code](https://github.com/MihirMore/100daysofcode-Python/tree/main/Day-24/Final_Project)
 - [Live Version](https://replit.com/@MihirMore1/US-States-Quiz#main.py)
