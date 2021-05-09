@@ -171,3 +171,10 @@
 - Description: This is a U.S. states game quiz where you have to guess the names of all the states of the US. It's also a learning tool where once you can use 'exit' keyword it will generate a CSV file which will have all the names of states you missed. So try this game with your family and friends :octocat:
 - [Source-Code](https://github.com/MihirMore/100daysofcode-Python/tree/main/Day-24/Final_Project)
 - [Live Version](https://replit.com/@MihirMore1/US-States-Quiz#main.py)
+
+### Day - 26
+
+- Project Name: **NATO Phonetic**
+- Description: This is a NATO Phonetic CLI which helps you to give out a phonetic for a word to spell out.
+- [Source-Code]()
+- [Live-Version](https://replit.com/@MihirMore1/NATOPhonetic?embed=1&output=1#main.py)
