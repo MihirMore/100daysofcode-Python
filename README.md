@@ -162,7 +162,7 @@
 
 - Project Name: **Mail Merge**
 - Description: I have a scenario where I've to send birthday invitations to my friends, however, I'm quite busy and want to automate the process of writing the names of friends in a file where I have already created a template. So, this script will run and create the invitations ready to be send to my friends and I've saved lot of time :innocent:
-- [Source-Code](https://github.com/MihirMore/100daysofcode-Python/tree/main/Day-23/Mail_Merge)
+- [Source-Code](https://github.com/MihirMore/100daysofcode-Python/tree/main/Day-24/Mail_Merge)
 - [Live-Version](https://replit.com/@MihirMore1/Mail-Merge#main.py)
 
 ### Day - 25
