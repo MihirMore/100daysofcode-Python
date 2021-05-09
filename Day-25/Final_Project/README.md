@@ -13,4 +13,4 @@
 
 **Description** : This is a NATO Phonetic CLI application which replies you with the NATO Phoentics.
 
-- [Live-version](https://replit.com/@MihirMore1/NATOPhonetic#main.py)
+- [Live-version](https://replit.com/@MihirMore1/NATOPhonetic?embed=1&output=1#main.py)
