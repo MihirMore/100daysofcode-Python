@@ -158,6 +158,13 @@
 - [Source-Code](https://github.com/MihirMore/100daysofcode-Python/tree/main/Day-22/Final_Project)
 - [Live-Version](https://replit.com/@MihirMore1/Ping-Pong-Game#main.py)
 
+### Day - 23
+
+- Project Name: **Crossy Road**
+- Description: This is a clone of crossy roads where the player needs to cross a road against the cars and avoid them to progress to next level. The cars speeds up when the level goes up. It's preety challenging to get a high score :blue_car:
+- [Source-Code]()
+- [Live-Version]()
+
 ### Day - 24
 
 - Project Name: **Mail Merge**
