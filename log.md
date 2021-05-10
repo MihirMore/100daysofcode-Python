@@ -99,6 +99,8 @@ which tested all the concepts covered till now and building blackjack project wa
 
 ### Day -24
 
-**Thoughts** : Today learned about handling external files and directories also how to open and close a file in Python. Did some exercises to find relative and absolute paths of a file. The final project used the concepts of file handling in python and how to automate any repitative process.
+**Thoughts** : Today learned about handling external files and directories also how to open and close a file in Python. Did some exercises to find relative and absolute paths of a file. The final project used the concepts of file handling in python and how to automate any repitative process. Also added a functionality of storing High score in our snake game.
 
 ### Day -25
+
+**Thoughts** : Started with one of the important applications of Python i.e. Data Visualisation using pandas. The introduction to pandas and how it handles csv file is amazing. Created a U.S. states quiz where an user has to guess states of the U.S.
