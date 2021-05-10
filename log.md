@@ -94,5 +94,11 @@ which tested all the concepts covered till now and building blackjack project wa
 **Thoughts** : Today I developed a pong game using Turtle graphics. Created new elements and learned how to control different turtles. Creating pong game was fun ahd added some customisations to the original project. Looking forward to build more games using Pygame and doing some individual projects outside of challenge.
 
 ### Day -23
+
+**Thoughts** : This is the second capstone project of the course. Today I build a crossy road clone using turtle graphics. All the concepts regarding the turtle graphics and same were used to implement the project. Certain aspects were a little challenging but made through it without much effort.
+
 ### Day -24
+
+**Thoughts** : Today learned about handling external files and directories also how to open and close a file in Python. Did some exercises to find relative and absolute paths of a file. The final project used the concepts of file handling in python and how to automate any repitative process.
+
 ### Day -25
