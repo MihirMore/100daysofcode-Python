@@ -92,3 +92,7 @@ which tested all the concepts covered till now and building blackjack project wa
 ### Day - 22
 
 **Thoughts** : Today I developed a pong game using Turtle graphics. Created new elements and learned how to control different turtles. Creating pong game was fun ahd added some customisations to the original project. Looking forward to build more games using Pygame and doing some individual projects outside of challenge.
+
+### Day -23
+### Day -24
+### Day -25
