@@ -11,24 +11,25 @@ window.title("My First GUI Program")
 window.minsize(width=500, height=300)
 # label
 my_label = Label(text="I'm a Label.", font=("Comic Sans MS", 26, "bold"))
-my_label.pack()
+# my_label.place(x=100, y=150)
+my_label.grid(column=0, row=0)
 my_label["text"] = "New text"
 my_label.config(text="New Text")
 
 button = Button(text="Click Me", command=button_clicked)
-button.pack()
+# button.pack()
 
 # Entry
 input_text = Entry(width=20)
 input_text.insert(END, string="Type Something")
-input_text.pack()
+# input_text.pack()
 
 # Text
 text = Text(height=5, width=30)
 text.focus()
 text.insert(END, "Example of multi-line text entry.")
 print(text.get("1.0", END))
-text.pack()
+# text.pack()
 
 
 # Spinbox
@@ -38,7 +39,7 @@ def spinbox_used():
 
 
 spinbox = Spinbox(from_=0, to=10, width=5, command=spinbox_used)
-spinbox.pack()
+# spinbox.pack()
 
 
 # Scale
@@ -47,7 +48,7 @@ def scale_used(value):
 
 
 scale = Scale(from_=0, to=100, command=scale_used)
-scale.pack()
+# scale.pack()
 
 
 # CheckButton
@@ -58,7 +59,7 @@ def checkbutton_used():
 checked_state = IntVar()
 checkbutton = Checkbutton(text="Is On?", variable=checked_state, command=checkbutton_used)
 checked_state.get()
-checkbutton.pack()
+# checkbutton.pack()
 
 
 # Radio Button
@@ -69,8 +70,8 @@ def radio_used():
 radio_state = IntVar()
 radiobutton1 = Radiobutton(text="Option1", value=1, variable=radio_state, command=radio_used)
 radiobutton2 = Radiobutton(text="Option1", value=2, variable=radio_state, command=radio_used)
-radiobutton1.pack()
-radiobutton2.pack()
+# radiobutton1.pack()
+# radiobutton2.pack()
 
 
 # List Box
@@ -83,6 +84,6 @@ fruits = ['Apple', 'Orange', 'Banana', 'Pear']
 for item in fruits:
     listbox.insert(fruits.index(item), item)
 listbox.bind("<<ListboxSelect>>", listbox_used)
-listbox.pack()
+# listbox.pack()
 
 window.mainloop()
