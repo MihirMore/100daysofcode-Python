@@ -104,3 +104,7 @@ which tested all the concepts covered till now and building blackjack project wa
 ### Day -25
 
 **Thoughts** : Started with one of the important applications of Python i.e. Data Visualisation using pandas. The introduction to pandas and how it handles csv file is amazing. Created a U.S. states quiz where an user has to guess states of the U.S.
+
+### Day - 26
+
+**Thoughts**
