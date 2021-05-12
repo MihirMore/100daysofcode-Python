@@ -182,6 +182,13 @@
 ### Day - 26
 
 - Project Name: **NATO Phonetic**
-- Description: This is a NATO Phonetic CLI which helps you to give out a phonetic for a word to spell out.
+- Description: This is a NATO Phonetic CLI which helps you to give out a phonetic for a word to spell out. It is based on list and dictionary comprehension concept in Python.
 - [Source-Code](https://github.com/MihirMore/100daysofcode-Python/tree/main/Day-25/Final_Project)
 - [Live-Version](https://github.com/MihirMore/100daysofcode-Python/tree/main/Day-26/Final_Project)
+
+### Day - 27
+
+- Project Name: **Miles to Km Converter**
+- Description: This is the first GUI application I built using the Tkinter library in Python. I have used some components of tkinter library to create a simple GUI which calculates the kms from the miles taken as input :sunglasses:
+- [Source-Code]()
+- [Live Version](https://replit.com/@MihirMore1/Miles-to-Km-Converter#main.py)
