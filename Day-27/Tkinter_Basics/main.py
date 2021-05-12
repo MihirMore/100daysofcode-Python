@@ -57,7 +57,8 @@ def checkbutton_used():
 
 
 checked_state = IntVar()
-checkbutton = Checkbutton(text="Is On?", variable=checked_state, command=checkbutton_used)
+checkbutton = Checkbutton(
+    text="Is On?", variable=checked_state, command=checkbutton_used)
 checked_state.get()
 # checkbutton.pack()
 
@@ -68,8 +69,10 @@ def radio_used():
 
 
 radio_state = IntVar()
-radiobutton1 = Radiobutton(text="Option1", value=1, variable=radio_state, command=radio_used)
-radiobutton2 = Radiobutton(text="Option1", value=2, variable=radio_state, command=radio_used)
+radiobutton1 = Radiobutton(text="Option1", value=1,
+                           variable=radio_state, command=radio_used)
+radiobutton2 = Radiobutton(text="Option1", value=2,
+                           variable=radio_state, command=radio_used)
 # radiobutton1.pack()
 # radiobutton2.pack()
 
