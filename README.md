@@ -182,7 +182,7 @@
 ### Day - 26
 
 - Project Name: **NATO Phonetic**
-- Description: This is a NATO Phonetic CLI which helps you to give out a phonetic for a word to spell out. It is based on list and dictionary comprehension concept in Python.
+- Description: This is a NATO Phonetic CLI which helps you to give out a phonetic for a word to spell out. It is based on list and dictionary comprehension concept in Python :v:
 - [Source-Code](https://github.com/MihirMore/100daysofcode-Python/tree/main/Day-25/Final_Project)
 - [Live-Version](https://github.com/MihirMore/100daysofcode-Python/tree/main/Day-26/Final_Project)
 
