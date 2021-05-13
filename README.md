@@ -192,3 +192,10 @@
 - Description: This is the first GUI application I built using the Tkinter library in Python. I have used some components of tkinter library to create a simple GUI which calculates the kms from the miles taken as input :sunglasses:
 - [Source-Code](https://github.com/MihirMore/100daysofcode-Python/tree/main/Day-27/Final_Project)
 - [Live Version](https://replit.com/@MihirMore1/Miles-to-Km-Converter#main.py)
+
+### Day -28
+
+- Project-Name: **Pomodoro Timer**
+- Description - This project is built on Tkinter library of Python. It implements the productivity technique explained by Francesco Cirillo called as [Pomodoro Technique](https://en.wikipedia.org/wiki/Pomodoro_Technique). GUI uses the color pallette from [ColorHunt](https://colorhunt.co/). Use this application for your prody=uctive sessions :computer:
+- [Source-Code]()
+- [Live Version](https://replit.com/@MihirMore1/Pomodoro-GUI#main.py)
