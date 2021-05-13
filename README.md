@@ -193,9 +193,16 @@
 - [Source-Code](https://github.com/MihirMore/100daysofcode-Python/tree/main/Day-27/Final_Project)
 - [Live Version](https://replit.com/@MihirMore1/Miles-to-Km-Converter#main.py)
 
-### Day -28
+### Day - 28
 
 - Project-Name: **Pomodoro Timer**
 - Description - This project is built on Tkinter library of Python. It implements the productivity technique explained by Francesco Cirillo called as [Pomodoro Technique](https://en.wikipedia.org/wiki/Pomodoro_Technique). GUI uses the color palette from [ColorHunt](https://colorhunt.co/). Use this application for your prody=uctive sessions :computer:
 - [Source-Code](https://github.com/MihirMore/100daysofcode-Python/tree/main/Day-28/Final_Project)
 - [Live Version](https://replit.com/@MihirMore1/Pomodoro-GUI#main.py)
+
+### Day - 29
+
+- Project-Name: **Password Generator**
+- Description: This is another python GUI project built using Tkinter. In this application we are saving our passwords in a text file securely in local envoirnment. It also has an functionality of generating a strong random password. I'll be making further enhancements like storing passwords in encrypted file. Feel free to use it and customize it your way :+1:
+- [Source-Code]()
+- [Live Version](https://replit.com/@MihirMore1/Password-Generator#main.py)
