@@ -108,3 +108,11 @@ which tested all the concepts covered till now and building blackjack project wa
 ### Day - 26
 
 **Thoughts** : Today I learned about List and dictionary comprehensions. Also practiced some exercises on comprehensions in python. The final project created is a NATO phonetic cli application which gives you a list of phonetics for a word inputted.
+
+### Day -27
+
+**Thoughts** : Started out with one of the most interesting topic -- GUI in python using tkinter. Leraned about basics and practiced creating some simple GUI functions. The final project included creating a simple mile to km converter application.
+
+### Day - 28
+
+**Thoughts** : This is the day-2 of tkinter GUI wherein I learnt more about the tkinter library. The final project I created is about a productivity technique called as Pomodoro Technique and it reminds you to work/break at certain intervals. This was quite a learning experience as I learnt how to create a layout and how to handle certain errors.
