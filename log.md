@@ -116,3 +116,7 @@ which tested all the concepts covered till now and building blackjack project wa
 ### Day - 28
 
 **Thoughts** : This is the day-2 of tkinter GUI wherein I learnt more about the tkinter library. The final project I created is about a productivity technique called as Pomodoro Technique and it reminds you to work/break at certain intervals. This was quite a learning experience as I learnt how to create a layout and how to handle certain errors.
+
+### Day - 29
+
+**Thoughts** : Today I started out with creating a GUI for password manager which helps you with creating and storing your passwords at your own local storage. The problems addressed were quite unique and also learnt about how to add external libraries if the environment is not supported. Also added a awesome functionality of copying your created password to your clipboard so it makes it easier to go directly and paste in your browser.
