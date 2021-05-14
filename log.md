@@ -107,4 +107,4 @@ which tested all the concepts covered till now and building blackjack project wa
 
 ### Day - 26
 
-**Thoughts**
+**Thoughts** : Today I learned about List and dictionary comprehensions. Also practiced some exercises on comprehensions in python. The final project created is a NATO phonetic cli application which gives you a list of phonetics for a word inputted.
