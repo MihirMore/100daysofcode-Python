@@ -14,9 +14,9 @@ except KeyError as error_message:
 else:
     content = file.read()
     print(content)
+# Your own custom exceptions    
 finally:
-    file.close()
-    print("The file was closed")
+    raise TypeError("This is an error I made up!")
 
-# Your own custom exceptions
+
 
