@@ -41,23 +41,41 @@ def save_data():
 
     if len(website) == 0 or len(password) == 0:
         messagebox.showwarning(title="Oops", message="Please don't leave any fields empty!")
-    else:  
-        try:      
+    else:
+        try:
             with open("data.json", "r") as data_file:
                 # Reading old data
                 data = json.load(data_file)
-        except FileNotFoundError:        
+        except FileNotFoundError:
             with open("data.json", "w") as data_file:
-                json.dump(new_data, data_file, indent=4)  
-        else:   
+                json.dump(new_data, data_file, indent=4)
+        else:
             # Updating old data with new data  
             data.update(new_data)
             with open("data.json", "w") as data_file:
                 # Saving updated data
-                json.dump(data, data_file, indent=4)   
+                json.dump(data, data_file, indent=4)
         finally:
             website_entry.delete(0, END)
             password_entry.delete(0, END)
+
+
+# --------------------------------------- FIND PASSWORD ---------------------------------------------- #
+def find_password():
+    website = website_entry.get()
+    print(website)
+    try:
+        with open("data.json", "r") as data_file:
+            data = json.load(data_file)
+    except FileNotFoundError:
+        messagebox.showerror(title="Error", message="No Data found in file.")
+    else:
+        if website in data:
+            email = data[website]["email"]
+            password = data[website]["password"]
+            messagebox.showinfo(title="Password Details", message=f"Email: {email} \nPassword: {password}")
+        else:
+            messagebox.showerror(title="Error", message=f"No data found for {website}")
 
 
 # --------------------------------------- UI SETUP --------------------------------------------------- #
@@ -94,7 +112,7 @@ password_entry = Entry(width=32)
 password_entry.grid(column=1, row=3)
 
 # Create buttons
-search_password_button = Button(text="Search", bd=1, width=14)
+search_password_button = Button(text="Search", bd=1, width=14, command=find_password)
 search_password_button.grid(column=2, row=1)
 
 generate_password_button = Button(text="Generate Password", bd=1, command=generate_password)
