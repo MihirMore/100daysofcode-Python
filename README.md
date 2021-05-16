@@ -213,3 +213,10 @@
 - Description: This is enchanced version of Password Generator build on day-29. In this application we are saving our passwords in a text file securely in local envoirnment. It also has an functionality of generating a strong random password. Also, I've added the functionality of searching through the passwords which we have saved earlier. This is done using the JSON data :sun_with_face:
 - [Source-Code](https://github.com/MihirMore/100daysofcode-Python/tree/main/Day-30/Final_Project)
 - [Live Version](https://replit.com/@MihirMore1/Password-Generator-V20#main.py)
+
+### Day - 31
+
+- Project-Name: **Flashy for learning words**
+- Description: This is the third capstone project where I've build a flashcard application to learn french words. The list of french words and their meaning has been set in the csv file which is used to read data and show it on Tkinter UI. This application also remembers what words you have to learn so you don't spend time reviewing the same words :innocent:
+- [Source-Code]()
+- [Live Version](https://replit.com/@MihirMore1/Flashy#main.py)
