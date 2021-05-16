@@ -14,11 +14,13 @@ print(to_learn)
 
 # --------------------------------------- FETCH NEW CARDS -------------------------------------------- #
 def new_card():
-    global current_card
+    global current_card, flip_timer
+    window.after_cancel(flip_timer)
     current_card = random.choice(to_learn)
     canvas.itemconfig(card_title, text="French", fill="Black")
     canvas.itemconfig(card_word, text=current_card["French"], fill="Black")
     canvas.itemconfig(card_background, image=card_front_image)
+    flip_timer = window.after(4000, func=flip_card)
 
 
 # --------------------------------------- FLIP THE CARD ---------------------------------------------- #
@@ -34,7 +36,8 @@ def flip_card():
 window = Tk()
 window.title("Flashy")
 window.config(padx=50, pady=50, background=BACKGROUND_COLOR)
-window.after(4000, func=flip_card)
+flip_timer = window.after(4000, func=flip_card)
+
 # Canvas
 canvas = Canvas(width=800, height=526)
 card_front_image = PhotoImage(file="./images/card_front.png")
