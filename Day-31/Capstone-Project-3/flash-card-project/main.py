@@ -5,11 +5,16 @@ import random
 BACKGROUND_COLOR = "#B1DDC6"
 FONT_NAME = "COMIC SANS MS"
 current_card = {}
+to_learn = {}
 
 # --------------------------------------- FETCH DATA FROM CSV ---------------------------------------- #
-data = pandas.read_csv("data/french_words.csv")
-to_learn = data.to_dict(orient="records")
-print(to_learn)
+try:
+    data = pandas.read_csv("data/words_to_learn.csv")
+except FileNotFoundError:
+    original_data = pandas.read_csv("data/french_words.csv")
+    to_learn = original_data.to_dict(orient="records")
+else:
+    to_learn = data.to_dict(orient="records")
 
 
 # --------------------------------------- FETCH NEW CARDS -------------------------------------------- #
@@ -20,7 +25,7 @@ def new_card():
     canvas.itemconfig(card_title, text="French", fill="Black")
     canvas.itemconfig(card_word, text=current_card["French"], fill="Black")
     canvas.itemconfig(card_background, image=card_front_image)
-    flip_timer = window.after(4000, func=flip_card)
+    flip_timer = window.after(2000, func=flip_card)
 
 
 # --------------------------------------- FLIP THE CARD ---------------------------------------------- #
@@ -31,12 +36,20 @@ def flip_card():
     canvas.itemconfig(card_background, image=card_back_image)
 
 
+# --------------------------------------- If User knows a word --------------------------------------- #
+def is_known():
+    to_learn.remove(current_card)
+    data_pandas = pandas.DataFrame(to_learn)
+    data_pandas.to_csv("./data/words_to_learn.csv", index=False)
+    new_card()
+
+
 # --------------------------------------- UI SETUP --------------------------------------------------- #
 # Creating a tkinter window
 window = Tk()
 window.title("Flashy")
 window.config(padx=50, pady=50, background=BACKGROUND_COLOR)
-flip_timer = window.after(4000, func=flip_card)
+flip_timer = window.after(2000, func=flip_card)
 
 # Canvas
 canvas = Canvas(width=800, height=526)
@@ -54,7 +67,7 @@ unknown_button = Button(image=cross_image, highlightthickness=0, bd=0, command=n
 unknown_button.grid(row=1, column=0)
 
 tick_image = PhotoImage(file="./images/right.png")
-known_button = Button(image=tick_image, highlightthickness=0, bd=0, command=new_card)
+known_button = Button(image=tick_image, highlightthickness=0, bd=0, command=is_known)
 known_button.grid(row=1, column=1)
 
 new_card()
