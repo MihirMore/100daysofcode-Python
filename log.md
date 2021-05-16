@@ -124,3 +124,7 @@ which tested all the concepts covered till now and building blackjack project wa
 ### Day - 30
 
 **Thoughts** : Enhanced yesterday's project by learning about the JSON file handling in Python. The json file is similar in structure to the dictionary datastructure in Python. This enables us to store passwords and retrieve the data in an easy way. This has in turn helped to search previous stored passwords. Also will implement the encryption of file in future.
+
+### Day - 31
+
+**Thoughts** : This is the third capstone project of the challenge. This project uses all the knowledge learnt earlier like pandas, tkinter and file handling. The capstone projectt is about learning words uisng the flashcards. The french words and their meaning is stored in the csv file and we create a new csv of the words which we don't know the meaning of thus enabling to start from where we left earlier. This was quite a fun project.
