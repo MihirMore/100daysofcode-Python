@@ -1,16 +1,16 @@
-# import smtplib
-#
-# my_email = "testpythonsmtp123@gmail.com"
-# password = "Python@123"
-#
-# with smtplib.SMTP("smtp.gmail.com") as connection:
-#     connection.starttls()
-#     connection.login(user=my_email, password=password)
-#     connection.sendmail(from_addr=my_email, to_addrs="mihirmore.18@gmail.com", msg="Subject:Hello from python "
-#                                                                                    "project\n\n "
-#                                                                                    "This is a test email from python "
-#                                                                                    "project. Do not reply")
-#     connection.close()
+import smtplib
+
+my_email = "youremail"
+password = "yourpassword"
+
+with smtplib.SMTP("smtp.gmail.com") as connection:
+    connection.starttls()
+    connection.login(user=my_email, password=password)
+    connection.sendmail(from_addr=my_email, to_addrs="mihirmore.18@gmail.com", msg="Subject:Hello from python "
+                                                                                   "project\n\n "
+                                                                                   "This is a test email from python "
+                                                                                   "project. Do not reply")
+    connection.close()
 
 import datetime as dt
 
