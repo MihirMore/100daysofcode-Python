@@ -120,3 +120,7 @@ which tested all the concepts covered till now and building blackjack project wa
 ### Day - 29
 
 **Thoughts** : Today I started out with creating a GUI for password manager which helps you with creating and storing your passwords at your own local storage. The problems addressed were quite unique and also learnt about how to add external libraries if the environment is not supported. Also added a awesome functionality of copying your created password to your clipboard so it makes it easier to go directly and paste in your browser.
+
+### Day - 30
+
+**Thoughts** : Enhanced yesterday's project by learning about the JSON file handling in Python. The json file is similar in structure to the dictionary datastructure in Python. This enables us to store passwords and retrieve the data in an easy way. This has in turn helped to search previous stored passwords. Also will implement the encryption of file in future.
