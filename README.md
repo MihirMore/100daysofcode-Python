@@ -217,6 +217,6 @@
 ### Day - 31
 
 - Project-Name: **Flashy for learning words**
-- Description: This is the third capstone project where I've build a flashcard application to learn french words. The list of french words and their meaning has been set in the csv file which is used to read data and show it on Tkinter UI. This application also remembers what words you have to learn so you don't spend time reviewing the same words :innocent:
-- [Source-Code]()
+- Description: This is the third capstone project where I've build a flashcard application to learn french words. The list of french words and their meaning has been set in the   csv file which is used to read data and show it on Tkinter UI. This application also remembers what words you have to learn so you don't spend time reviewing the same words    :innocent:
+- [Source-Code](https://github.com/MihirMore/100daysofcode-Python/tree/main/Day-31/Capstone-Project-3/flash-card-project)
 - [Live Version](https://replit.com/@MihirMore1/Flashy#main.py)
