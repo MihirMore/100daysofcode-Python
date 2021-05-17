@@ -217,6 +217,13 @@
 ### Day - 31
 
 - Project-Name: **Flashy for learning words**
-- Description: This is the third capstone project where I've build a flashcard application to learn french words. The list of french words and their meaning has been set in the   csv file which is used to read data and show it on Tkinter UI. This application also remembers what words you have to learn so you don't spend time reviewing the same words    :innocent:
+- Description: This is the third capstone project where I've build a flashcard application to learn french words. The list of french words and their meaning has been set in the   csv file which is used to read data and show it on Tkinter UI. This application also remembers what words you have to learn so you don't spend time reviewing the same words :innocent:
 - [Source-Code](https://github.com/MihirMore/100daysofcode-Python/tree/main/Day-31/Capstone-Project-3/flash-card-project)
 - [Live Version](https://replit.com/@MihirMore1/Flashy#main.py)
+
+### Day - 32
+
+- Project-Name: **Birthday Wisher Email**
+- Description: This project uses smtp library of Python. I forgot birthdays of my friends and family frequently so I've developed this project to send email to the birthday person. I've used csv file to store birthdays and sending emails on particular day using datetime :birthday:
+- [Source-Code]()
+- [Live Version](https://replit.com/@MihirMore1/Birthday-Wisher#main.py)
