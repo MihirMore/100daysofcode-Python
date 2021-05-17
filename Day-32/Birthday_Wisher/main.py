@@ -1,4 +1,5 @@
 import smtplib
+import datetime as dt
 
 my_email = "youremail"
 password = "yourpassword"
@@ -11,8 +12,6 @@ with smtplib.SMTP("smtp.gmail.com") as connection:
                                                                                    "This is a test email from python "
                                                                                    "project. Do not reply")
     connection.close()
-
-import datetime as dt
 
 now = dt.datetime.now()
 week = now.weekday()
