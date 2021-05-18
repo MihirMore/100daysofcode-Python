@@ -128,3 +128,7 @@ which tested all the concepts covered till now and building blackjack project wa
 ### Day - 31
 
 **Thoughts** : This is the third capstone project of the challenge. This project uses all the knowledge learnt earlier like pandas, tkinter and file handling. The capstone projectt is about learning words uisng the flashcards. The french words and their meaning is stored in the csv file and we create a new csv of the words which we don't know the meaning of thus enabling to start from where we left earlier. This was quite a fun project.
+
+### Day - 32
+
+**Thoughts** : Today I learnt about the smotplib of Python and how it is used to send emails. The exercise was to send motivational quotes from a file to your email every Monday. The final project was to create a birthday wisher email and send it to the person whose birthday is on a given day. The data is stored in a csv and is fetched to check if any date matched today and sends email if it does.
