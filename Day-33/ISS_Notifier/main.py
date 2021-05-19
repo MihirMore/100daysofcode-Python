@@ -51,5 +51,3 @@ while True:
                             to_addrs=MY_EMAIL,
                             msg="Subject:Look Up \n\nThe ISS is above you in the sky."
                             )
-    else:
-        print("Not near")
