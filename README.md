@@ -234,3 +234,10 @@
 - Description: This project will notify you when the International Space Station(ISS) is near your co-ordinates at night. It uses the smtp library and ISS API as well as sunrise and sunset API. Enjoy watching ISS :telescope:
 - [Source Code](https://github.com/MihirMore/100daysofcode-Python/tree/main/Day-33/ISS_Notifier)
 - [Live-Version](https://replit.com/@MihirMore1/ISS-Notifier#main.py)
+
+### Day - 34
+
+- Project-Name: **Quizzler GUI**
+- Description: This is another quiz game where user is given a question and is expected it to answer by clicking True/False. It uses the tkinter library to create a UI and questions are fetched from [open trivia database](https://opentdb.com/). Try this game and have fun :sparkling_heart:
+- [Source-Code]()
+- [Live Version](https://replit.com/@MihirMore1/Quizzler#main.py)
