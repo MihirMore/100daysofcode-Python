@@ -15,7 +15,6 @@ print(response.status_code)
 response.raise_for_status()
 weather_data = response.json()
 
-
 is_raining = False
 
 for hours in range(0, 13):
