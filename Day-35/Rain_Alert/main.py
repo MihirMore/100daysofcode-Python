@@ -15,11 +15,16 @@ print(response.status_code)
 response.raise_for_status()
 weather_data = response.json()
 
-is_raining = False
+will_rain = False
 
-for hours in range(0, 13):
-    if weather_data["hourly"][0]["weather"][0]["id"] < 700:
-        is_raining = True
+weather_slice = weather_data["hourly"][:11]
+# print(weather_slice[0]["weather"][0]["id"])
 
-if is_raining:
+for hour_data in weather_slice:
+    if hour_data["weather"][0]["id"] < 700:
+        will_rain = True
+
+if will_rain:
     print("Please bring an umbrella")
+
+
