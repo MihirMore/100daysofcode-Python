@@ -47,7 +47,7 @@ print(percentage_difference)
 
 # If percentage is greater than 5 then print("Get News").
 # Instead of printing ("Get News"), actually get the first 3 news pieces for the COMPANY_NAME.
-if abs(percentage_difference) > 0:
+if abs(percentage_difference) > 10:
     news_response = requests.get(url=NEWS_ENDPOINT, params=news_parameters)
     articles = news_response.json()["articles"]
     top_three_articles = articles[:3]
