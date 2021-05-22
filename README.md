@@ -246,5 +246,5 @@
 
 - Project-Name: **Rain Alert**
 - Description: This is a rain alert application which sends you notifications if it's going to rain in the next 12 hours. This application uses open weather map API and Twilio API to send sms to your mobile number. This application is hosted on python anywhere to run it daily at 7am :umbrella:
-- [Source-Code]()
+- [Source-Code](https://github.com/MihirMore/100daysofcode-Python/tree/main/Day-35/Rain_Alert)
 - [Live Version](https://replit.com/@MihirMore1/Rain-Alert#main.py)
