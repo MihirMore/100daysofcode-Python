@@ -253,5 +253,5 @@
 
 - Project-Name: **Stock Market News**
 - Description: This project is developed to send stock markets alerts and news on a daily basis. It uses different API's to fetch this data and uses Twilio API to send sms. If there is a noteable drop/gain in stock then a message will be send :dollar:
-- [Source-Code]()
+- [Source-Code](https://github.com/MihirMore/100daysofcode-Python/tree/main/Day-36/Final-Project/stock-news-alert-app)
 - [Live version](https://replit.com/@MihirMore1/Stock-Trading-News-Alert#main.py)
