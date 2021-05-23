@@ -132,3 +132,7 @@ which tested all the concepts covered till now and building blackjack project wa
 ### Day - 32
 
 **Thoughts** : Today I learnt about the smotplib of Python and how it is used to send emails. The exercise was to send motivational quotes from a file to your email every Monday. The final project was to create a birthday wisher email and send it to the person whose birthday is on a given day. The data is stored in a csv and is fetched to check if any date matched today and sends email if it does.
+
+### Day - 33
+
+**Thoughts** : Today I studied about API's and how to use API endpoints and parameters. Also created a very fun kanye quote GUI app using kanye.rest API and Tkinter. The final project is about sending an email notification when ISS(International Space Station) is near your home at night so you can view it. It uses the ISS API and also sunrise/sunset API to get time information regarding the time of sunset and sunrise. It uses smtplib to send email notification.
