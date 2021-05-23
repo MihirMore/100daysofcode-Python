@@ -136,3 +136,7 @@ which tested all the concepts covered till now and building blackjack project wa
 ### Day - 33
 
 **Thoughts** : Today I studied about API's and how to use API endpoints and parameters. Also created a very fun kanye quote GUI app using kanye.rest API and Tkinter. The final project is about sending an email notification when ISS(International Space Station) is near your home at night so you can view it. It uses the ISS API and also sunrise/sunset API to get time information regarding the time of sunset and sunrise. It uses smtplib to send email notification.
+
+### Day - 34
+
+**Thoughts** : The project created today is a quiz GUI application which asks the player 10 different questions based on a category and keeps track of your score. This app uses OpenTriviaDB API to fetch data and shows all the questions in interactive form.
