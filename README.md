@@ -255,3 +255,10 @@
 - Description: This project is developed to send stock markets alerts and news on a daily basis. It uses different API's to fetch this data and uses Twilio API to send sms. If there is a noteable drop/gain in stock then a message will be send :dollar:
 - [Source-Code](https://github.com/MihirMore/100daysofcode-Python/tree/main/Day-36/Final-Project/stock-news-alert-app)
 - [Live version](https://replit.com/@MihirMore1/Stock-Trading-News-Alert#main.py)
+
+### Day - 37
+
+- Project-Name **Habit Tracker**
+- Description: This is a habit tracker application which uses the [pixela](https://pixe.la/) API to create a user graph based on some habit and can be updated everyday which can be seen on a graph like here :dizzy:
+- [Source-Code]()
+- [Live Version](https://replit.com/@MihirMore1/Habit-Tracker#main.py)
