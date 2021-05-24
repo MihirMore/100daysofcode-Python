@@ -37,10 +37,10 @@ UPDATE_GRAPH_ENDPOINT = f"{PIXELA_ENDPOINT}/{USERNAME}/graphs/graph1"
 
 today = datetime.now()
 
-update_pixel = {
+create_pixel = {
     "date": today.strftime("%Y%m%d"),
     "quantity": "300"
 }
 
-response = requests.post(url=UPDATE_GRAPH_ENDPOINT, json=update_pixel, headers=headers)
+response = requests.post(url=UPDATE_GRAPH_ENDPOINT, json=create_pixel, headers=headers)
 print(response.text)
