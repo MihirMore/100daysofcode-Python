@@ -40,14 +40,14 @@ today = datetime.now()
 
 create_pixel = {
     "date": today.strftime("%Y%m%d"),
-    "quantity": "300"
+    "quantity": input("How many pages did you read today?")
 }
 
 response = requests.post(url=CREATE_GRAPH_ENDPOINT, json=create_pixel, headers=headers)
 print(response.text)
 
 # API call to update your pixels
-UPDATE_PIXEL_ENDPOINT = f"{PIXELA_ENDPOINT}/{USERNAME}/graphs/graph1/20210523"
+UPDATE_PIXEL_ENDPOINT = f"{PIXELA_ENDPOINT}/{USERNAME}/graphs/graph1/{today.strftime('%Y%m%d')}"
 
 update_pixel = {
     "quantity": "330"
@@ -57,7 +57,7 @@ response = requests.put(url=UPDATE_PIXEL_ENDPOINT, json=update_pixel, headers=he
 print(response.text)
 
 # API call to delete pixels in our graph
-DELETE_PIXEL_ENDPOINT = f"{PIXELA_ENDPOINT}/{USERNAME}/graphs/graph1/20210523"
+DELETE_PIXEL_ENDPOINT = f"{PIXELA_ENDPOINT}/{USERNAME}/graphs/graph1/{today.strftime('%Y%m%d')}"
 
 response = requests.delete(url=DELETE_PIXEL_ENDPOINT, headers=headers)
 print(response.text)
