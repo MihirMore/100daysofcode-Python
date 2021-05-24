@@ -33,7 +33,7 @@ headers = {
 response = requests.post(url=GRAPH_ENDPOINT, json=graph_config, headers=headers)
 print(response.text)
 
-#
+# API call to create pixel in our graph
 CREATE_GRAPH_ENDPOINT = f"{PIXELA_ENDPOINT}/{USERNAME}/graphs/graph1"
 
 today = datetime.now()
@@ -46,6 +46,7 @@ create_pixel = {
 response = requests.post(url=CREATE_GRAPH_ENDPOINT, json=create_pixel, headers=headers)
 print(response.text)
 
+# API call to update your pixels
 UPDATE_PIXEL_ENDPOINT = f"{PIXELA_ENDPOINT}/{USERNAME}/graphs/graph1/20210523"
 
 update_pixel = {
@@ -55,6 +56,7 @@ update_pixel = {
 response = requests.put(url=UPDATE_PIXEL_ENDPOINT, json=update_pixel, headers=headers)
 print(response.text)
 
+# API call to delete pixels in our graph
 DELETE_PIXEL_ENDPOINT = f"{PIXELA_ENDPOINT}/{USERNAME}/graphs/graph1/20210523"
 
 response = requests.delete(url=DELETE_PIXEL_ENDPOINT, headers=headers)
