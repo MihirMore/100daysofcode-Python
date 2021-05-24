@@ -33,7 +33,8 @@ headers = {
 response = requests.post(url=GRAPH_ENDPOINT, json=graph_config, headers=headers)
 print(response.text)
 
-UPDATE_GRAPH_ENDPOINT = f"{PIXELA_ENDPOINT}/{USERNAME}/graphs/graph1"
+#
+CREATE_GRAPH_ENDPOINT = f"{PIXELA_ENDPOINT}/{USERNAME}/graphs/graph1"
 
 today = datetime.now()
 
@@ -42,5 +43,21 @@ create_pixel = {
     "quantity": "300"
 }
 
-response = requests.post(url=UPDATE_GRAPH_ENDPOINT, json=create_pixel, headers=headers)
+response = requests.post(url=CREATE_GRAPH_ENDPOINT, json=create_pixel, headers=headers)
 print(response.text)
+
+UPDATE_PIXEL_ENDPOINT = f"{PIXELA_ENDPOINT}/{USERNAME}/graphs/graph1/20210523"
+
+update_pixel = {
+    "quantity": "330"
+}
+
+response = requests.put(url=UPDATE_PIXEL_ENDPOINT, json=update_pixel, headers=headers)
+print(response.text)
+
+DELETE_PIXEL_ENDPOINT = f"{PIXELA_ENDPOINT}/{USERNAME}/graphs/graph1/20210523"
+
+response = requests.delete(url=DELETE_PIXEL_ENDPOINT, headers=headers)
+print(response.text)
+
+
