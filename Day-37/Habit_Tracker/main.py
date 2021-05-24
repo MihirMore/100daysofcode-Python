@@ -1,4 +1,5 @@
 import requests
+from datetime import datetime
 
 PIXELA_ENDPOINT = "https://pixe.la/v1/users"
 PIXELA_TOKEN = "your_token"
@@ -34,8 +35,10 @@ print(response.text)
 
 UPDATE_GRAPH_ENDPOINT = f"{PIXELA_ENDPOINT}/{USERNAME}/graphs/graph1"
 
+today = datetime.now()
+
 update_pixel = {
-    "date": "20210524",
+    "date": today.strftime("%Y%m%d"),
     "quantity": "300"
 }
 
