@@ -1,7 +1,7 @@
 import requests
 from pprint import pprint
 
-SHEETY_PRICES_ENDPOINT = "YOUR_ENDPOINT"
+SHEETY_PRICES_ENDPOINT = "YOUR SHEETY URL"
 
 
 class DataManager:
@@ -11,7 +11,7 @@ class DataManager:
     def get_destination_data(self):
         response = requests.get(url=SHEETY_PRICES_ENDPOINT)
         data = response.json()
-        pprint(data)
+        # pprint(data)
         self.destination_data = data["prices"]
         return self.destination_data
 
