@@ -9,6 +9,13 @@ flight_search = FlightSearch()
 notification_manager = NotificationManager()
 
 ORIGIN_CITY_IATA = "BOM"
+print("Welcome to Mihir's Flight Club")
+print("We find the best flight deals and email you\n")
+first_name = input("Enter your first name: ")
+last_name = input("Enter you last name: ")
+user_email = input("Type your email address: ")
+
+data_manager.update_customer_emails(f_name=first_name, l_name=last_name, email=user_email)
 
 if sheet_data[0]["iataCode"] == "":
     for row in sheet_data:
@@ -31,14 +38,19 @@ for destination in sheet_data:
         continue
 
     if flight.price < destination["lowestPrice"]:
-        message=f"Low price alert! Only ₹ {flight.price} to fly from {flight.origin_city}-{flight.origin_airport} to " \
-                f"{flight.destination_city}-{flight.destination_airport}, from {flight.out_date} to {flight.return_date}."
+
+        users = data_manager.get_customer_emails()
+        emails = [row["email"] for row in users]
+        names = [row["firstName"] for row in users]
+
+        message = f"Low price alert! Only ₹ {flight.price} to fly from {flight.origin_city}-{flight.origin_airport} to {flight.destination_city}-{flight.destination_airport}, from {flight.out_date} to {flight.return_date}. "
 
         if flight.stop_overs > 0:
             message += f"\nFlight has {flight.stop_overs} stop over, via {flight.via_city}."
-            print(message)
 
-        link = f"https://www.google.co.uk/flights?hl=en#flt={flight.origin_airport}.{flight.destination_airport}." \
+
+        link = f"https://www.google.co.in/flights?hl=en#flt={flight.origin_airport}.{flight.destination_airport}." \
                f"{flight.out_date}*{flight.destination_airport}.{flight.origin_airport}.{flight.return_date}"
 
-        notification_manager.send_sms(message)
+        notification_manager.send_emails(emails, message, link)
+print("Please check your mail. You have received your flight deals!")
