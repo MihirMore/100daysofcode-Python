@@ -1,8 +1,8 @@
 from pprint import pprint
 import requests
 
-SHEETY_PRICES_ENDPOINT = "Your URL"
-SHEETY_USERS_ENDPOINT = "Your URL"
+SHEETY_PRICES_ENDPOINT = "YOUR URL"
+SHEETY_USERS_ENDPOINT = "YOUR URL"
 
 
 class DataManager:
@@ -27,7 +27,16 @@ class DataManager:
                 url=f"{SHEETY_PRICES_ENDPOINT}/{city['id']}",
                 json=new_data
             )
-            print(response.text)
+
+    def update_customer_emails(self, f_name, l_name, email):
+        parameters = {
+            "user": {
+                "firstName": f_name,
+                "lastName": l_name,
+                "email": email
+            }
+        }
+        response = requests.post(url=SHEETY_USERS_ENDPOINT, json=parameters)
 
     def get_customer_emails(self):
         customers_endpoint = SHEETY_USERS_ENDPOINT
