@@ -1,7 +1,13 @@
 from twilio.rest import Client
 import smtplib
 
-Your CREDS
+TWILIO_SID = "Your APP S_ID"
+TWILIO_AUTH_TOKEN = "YOUR TWILIO AUTH TOKEN"
+TWILIO_VIRTUAL_NUMBER = "YOUR VIRTUAL NUMBER"
+TWILIO_VERIFIED_NUMBER = "YOUR NUMBER"
+MAIL_PROVIDER_SMTP_ADDRESS = "smtp.gmail.com"
+MY_EMAIL = "yOUR EMAIL"
+MY_PASSWORD = "YOUR PASSWORD"
 
 
 class NotificationManager:
@@ -15,11 +21,9 @@ class NotificationManager:
             from_=TWILIO_VIRTUAL_NUMBER,
             to=TWILIO_VERIFIED_NUMBER,
         )
-        print(message.sid)
 
     def send_emails(self, emails, message, google_flight_link):
         with smtplib.SMTP_SSL(MAIL_PROVIDER_SMTP_ADDRESS) as connection:
-            connection.starttls()
             connection.login(MY_EMAIL, MY_PASSWORD)
             for email in emails:
                 connection.sendmail(
