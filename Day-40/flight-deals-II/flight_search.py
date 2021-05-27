@@ -1,9 +1,9 @@
 import requests
 from flight_data import FlightData
-from pprint import pprint
+
 
 TEQUILA_ENDPOINT = "https://tequila-api.kiwi.com"
-TEQUILA_API_KEY = "Your API KEY"
+TEQUILA_API_KEY = "YOUR TEQUILA API KEY"
 
 
 class FlightSearch:
@@ -29,7 +29,7 @@ class FlightSearch:
             "flight_type": "round",
             "one_for_city": 1,
             "max_stopovers": 0,
-            "curr": "GBP"
+            "curr": "INR"
         }
 
         response = requests.get(
@@ -46,8 +46,11 @@ class FlightSearch:
                 headers=headers,
                 params=query,
             )
-            data = response.json()["data"][0]
-            pprint(data)
+            data = response.json()
+            # pprint(data)
+            if len(data["data"]) == 0:
+                print(f"No flights currently flying to {destination_city_code}.")
+                return None
             flight_data = FlightData(
                 price=data["price"],
                 origin_city=data["route"][0]["cityFrom"],
@@ -60,15 +63,15 @@ class FlightSearch:
                 via_city=data["route"][0]["cityTo"]
             )
             return flight_data
-        # else:
-        #     flight_data = FlightData(
-        #         price=data["price"],
-        #         origin_city=data["route"][0]["cityFrom"],
-        #         origin_airport=data["route"][0]["flyFrom"],
-        #         destination_city=data["route"][0]["cityTo"],
-        #         destination_airport=data["route"][0]["flyTo"],
-        #         out_date=data["route"][0]["local_departure"].split("T")[0],
-        #         return_date=data["route"][1]["local_departure"].split("T")[0]
-        #     )
+        else:
+            flight_data = FlightData(
+                price=data["price"],
+                origin_city=data["route"][0]["cityFrom"],
+                origin_airport=data["route"][0]["flyFrom"],
+                destination_city=data["route"][0]["cityTo"],
+                destination_airport=data["route"][0]["flyTo"],
+                out_date=data["route"][0]["local_departure"].split("T")[0],
+                return_date=data["route"][1]["local_departure"].split("T")[0]
+            )
 
-            # return flight_data
+            return flight_data
