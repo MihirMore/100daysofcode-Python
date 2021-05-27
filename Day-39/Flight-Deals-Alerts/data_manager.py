@@ -1,7 +1,7 @@
 import requests
 from pprint import pprint
 
-SHEETY_PRICES_ENDPOINT = "YOUR SHEETY URL"
+SHEETY_PRICES_ENDPOINT = "https://api.sheety.co/98939b322dbbc78b55f290e22c1a46f2/flightDeals/prices"
 
 
 class DataManager:
