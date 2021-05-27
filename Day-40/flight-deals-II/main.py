@@ -11,11 +11,16 @@ notification_manager = NotificationManager()
 ORIGIN_CITY_IATA = "BOM"
 print("Welcome to Mihir's Flight Club")
 print("We find the best flight deals and email you\n")
-first_name = input("Enter your first name: ")
-last_name = input("Enter you last name: ")
-user_email = input("Type your email address: ")
 
-data_manager.update_customer_emails(f_name=first_name, l_name=last_name, email=user_email)
+user_choice = input("Are you an existing member? Type 'yes' or 'no': ").lower()
+
+if user_choice == 'yes':
+    print("Great! fetching deals right in your inbox ✈️")
+else:
+    first_name = input("Enter your first name: ")
+    last_name = input("Enter you last name: ")
+    user_email = input("Type your email address: ")
+    data_manager.update_customer_emails(f_name=first_name, l_name=last_name, email=user_email)
 
 if sheet_data[0]["iataCode"] == "":
     for row in sheet_data:
@@ -47,7 +52,6 @@ for destination in sheet_data:
 
         if flight.stop_overs > 0:
             message += f"\nFlight has {flight.stop_overs} stop over, via {flight.via_city}."
-
 
         link = f"https://www.google.co.in/flights?hl=en#flt={flight.origin_airport}.{flight.destination_airport}." \
                f"{flight.out_date}*{flight.destination_airport}.{flight.origin_airport}.{flight.return_date}"
