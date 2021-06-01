@@ -1,0 +1,45 @@
+/************************************************** TAG SELECTORS *************************************************/
+h1 {
+    color: blue;
+}
+
+p {
+    font-size: 25px;    
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+img:hover {
+    background-color: #eba83a;
+}
+
+body {
+    background-color: #ffc288;
+}
+
+/***************************************************** CLASS SELECTORS **********************************************/
+.chicken {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    width : 12% ;
+}
+
+.paragraph {
+    font-family: 'Archivo';
+    color: #835e1e
+
+}
+
+/****************************************************** ID SELECTORS ************************************************/
+#heading {
+    color: #a15401;
+    font-size: 100px;
+    text-align: center;
+}
+
