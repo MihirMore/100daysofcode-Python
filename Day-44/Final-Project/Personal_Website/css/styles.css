@@ -1,14 +1,15 @@
 body {
     background-color: #2e6cf1;
     margin: 0;
-    text-align: center;    
-    font-family: 'Sacramento', cursive;
+    text-align: center;  
+     
 }
 
 .top-container {
     background-color: #98b8e7;
     position: relative;
     padding-top: 100px;
+    font-family: 'Sacramento', cursive;
 }
 
 .pro {
@@ -16,7 +17,7 @@ body {
 }
 
 .middle-container {
-    background-color: #6091da;
+    background-color: #74a6f0;
     
 
 }
@@ -37,8 +38,19 @@ h2 {
 }
 
 h3{
-    font-family: 'Merriweather', serif;
+    font-family: 'Merriweather', serif;    
 }
+
+p {
+    font-family: 'Merriweather', serif;  
+}
+
+.photoid {
+    width: 152px;
+    height: 152px;
+    border-radius: 50%;
+}
+
 .bottom-cloud {
     position: absolute;
     height: 50px;
