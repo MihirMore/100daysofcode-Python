@@ -1,3 +1,24 @@
 body {
-    background-color: #393e46;
+    background-color: #39cfb9;
+    margin: 0;
+}
+
+.top-container {
+    background-color: #a4f8e2;
+    
+}
+
+.middle-container {
+    background-color: #a6e3e9;
+    
+
+}
+
+.bottom-container {
+    background-color: #71c9ce;
+    
+}
+
+h1 {
+    margin: 0px;
 }
