@@ -10,6 +10,7 @@ body {
     position: relative;
     padding-top: 100px;
     font-family: 'Sacramento', cursive;
+    height: 640px;
 }
 
 .pro {
@@ -18,23 +19,23 @@ body {
 
 .middle-container {
     background-color: #74a6f0;
-    
+    padding-bottom: 10px;
 
 }
 
 .bottom-container {
     background-color: #6091da;
-    
+    padding-top: 20px;
 }
 
 h1 {
     margin: 0 auto;
-    font-size: 60px;
+    font-size: 90px;
 }
 
 h2 {
     font-family: 'Montserrat', sans-serif;
-
+    font-size: 35px;
 }
 
 h3{
@@ -54,12 +55,18 @@ p {
 .bottom-cloud {
     position: absolute;
     height: 50px;
-    left: 250px
+    left: 250px;
+    width: 200px;
 }
 
 .top-cloud{
     position: absolute;
-    top: 50px;
+    top: 80px;
     right: 250px;
+    width: 200px;
+}
+
+.mountain {
+    width: 630px;
     
 }
