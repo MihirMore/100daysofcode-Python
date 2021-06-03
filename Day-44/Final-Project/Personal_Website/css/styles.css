@@ -1,12 +1,12 @@
 body {
-    background-color: #6187f0;
+    background-color: #c0ffb3;
     margin: 0;
     text-align: center;  
      
 }
 
 .top-container {
-    background-color: #92abd8;
+    background-color: #264653;
     position: relative;
     padding-top: 100px;
     font-family: 'Sacramento', cursive;
@@ -19,13 +19,13 @@ body {
 
 .middle-container {
     padding-top: 30px;
-    background-color: #5482e6;
+    background-color: #498ca7;
     padding-bottom: 10px;
 
 }
 
 .bottom-container {
-    background-color: #1d5add;
+    background-color: #a4b3b6;
     padding-top: 20px;
     padding-bottom: 10px;
 }
@@ -33,19 +33,23 @@ body {
 h1 {
     margin: 0 auto;
     font-size: 5.62rem;
+    color: #E9C46A;
 }
 
 h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
+    color: #E9C46A;
 }
 
 h3{
-    font-family: 'Merriweather', serif;    
+    font-family: 'Merriweather', serif;  
+    color: #cec577;
 }
 
 p {
-    font-family: 'Merriweather', serif;  
+    font-family: 'Merriweather', serif; 
+    
 }
 
 .photoid {
@@ -70,4 +74,9 @@ p {
 .mountain {
     width: 630px;
     
+}
+
+.web-development{
+    width: 100px;
+    height: 100px;
 }
