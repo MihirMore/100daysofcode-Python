@@ -6,7 +6,7 @@ body {
 }
 
 .top-container {
-    background-color: #98b8e7;
+    background-color: #a1bceb;
     position: relative;
     padding-top: 100px;
     font-family: 'Sacramento', cursive;
@@ -30,7 +30,7 @@ body {
 
 h1 {
     margin: 0 auto;
-    font-size: 90px;
+    font-size: 5.62em;
 }
 
 h2 {
@@ -53,8 +53,7 @@ p {
 }
 
 .bottom-cloud {
-    position: absolute;
-    height: 50px;
+    position: absolute;    
     left: 250px;
     width: 200px;
 }
