@@ -117,5 +117,10 @@ hr {
 }
 
 .contact-me {
-    padding-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;    
+}
+
+.contact-me-description {
+    line-height: 2.5;
 }
