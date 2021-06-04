@@ -161,6 +161,20 @@ hr {
 }
 
 .footer-link {
-    padding-left: 15px;
+    margin: 10px 20px;
     font-size: 18px;
+    color: #230996;
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color:rgb(223, 241, 250);
+}
+
+.copyright {
+    color:#EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
 }
