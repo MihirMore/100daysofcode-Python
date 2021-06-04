@@ -144,9 +144,9 @@ hr {
     display: inline-block;
     cursor: pointer;
     text-align: center;
- }
- 
- .btn:hover {
+}
+
+.btn:hover {
     border: solid #337FED 1px;
     background: #30E3CB;
     background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
@@ -158,4 +158,8 @@ hr {
     -moz-border-radius: 20px;
     border-radius: 20px;
     text-decoration: none;
- }
+}
+
+.footer-link {
+    padding-left: 20px;
+}
