@@ -99,3 +99,19 @@ p {
     text-align: left;
     line-height: 2;
 }
+
+hr {
+    border-style: none;
+    border-color: #fdff93;
+    border-width: 6px;
+    border-top-style: dotted;
+    width: 4%;                             
+}
+
+.profile {
+    padding-bottom: 35px;
+}
+
+.skills {
+    padding-top: 10px;
+}
