@@ -11,3 +11,6 @@ anchor_tags = soup.find_all(name="a")
 print(anchor_tags)
 paragraph_tags = soup.find_all(name="p")
 print(paragraph_tags)
+
+for tag in anchor_tags:
+    print(tag.get("href"))
