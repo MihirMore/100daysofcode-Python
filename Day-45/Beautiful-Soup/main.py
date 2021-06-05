@@ -14,3 +14,6 @@ print(paragraph_tags)
 
 for tag in anchor_tags:
     print(tag.get("href"))
+
+heading = soup.find(name="h1", id="name")
+print(heading)
