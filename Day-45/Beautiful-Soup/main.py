@@ -23,3 +23,6 @@ print(section_heading.string)
 
 company_url = soup.select_one(selector="p a")
 print(company_url)
+
+name = soup.select_one(selector="#name")
+print(name)
