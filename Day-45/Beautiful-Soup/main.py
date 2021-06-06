@@ -26,3 +26,6 @@ print(company_url)
 
 name = soup.select_one(selector="#name")
 print(name)
+
+headings = soup.select(".heading")
+print(headings)
