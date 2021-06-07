@@ -14,5 +14,7 @@ print(logo.size)
 documentation_link = driver.find_element_by_css_selector(".documentation-widget a")
 print(documentation_link.text)
 
+bug_link = driver.find_element_by_xpath("//*[@id=\"site-map\"]/div[2]/div/ul/li[3]/a")
+print(bug_link.text)
 
 driver.quit()
