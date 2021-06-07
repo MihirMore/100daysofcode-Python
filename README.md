@@ -327,5 +327,5 @@
 
 - Project Name: **Amazon Price Tracker**
 **Description** : This project helps you to track amazon prices and when it drops to a desired price then an email will be sent to your inbox notifying about the price drop :money_with_wings:
-- [Source-Code]()
+- [Source-Code](https://github.com/MihirMore/100daysofcode-Python/tree/main/Day-47/Final_Project)
 - [Live-Version](https://replit.com/@MihirMore1/Amazon-Price-Tracker#main.py)
