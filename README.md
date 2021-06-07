@@ -322,3 +322,10 @@
 - Description : This musical time machine takes a date as an input and creates a Spotify playlist of Top 100 BillBoard's hits of that particular date. This project scrapes BillBoards data for particular date and then uses Spotify's API to create a private playlist :headphones:
 - [Source-Code](https://github.com/MihirMore/100daysofcode-Python/tree/main/Day-46/Final-Project/Musical_Time_Machine)
 - [Live-version](https://replit.com/@MihirMore1/Musical-Time-Machine#main.py)
+
+### Day - 47
+
+- Project Name: **Amazon Price Tracker**
+**Description** : This project helps you to track amazon prices and when it drops to a desired price then an email will be sent to your inbox notifying about the price drop :money_with_wings:
+- [Source-Code]()
+- [Live-Version](https://replit.com/@MihirMore1/Amazon-Price-Tracker#main.py)
