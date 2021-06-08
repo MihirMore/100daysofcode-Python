@@ -17,4 +17,16 @@ print(documentation_link.text)
 bug_link = driver.find_element_by_xpath("//*[@id=\"site-map\"]/div[2]/div/ul/li[3]/a")
 print(bug_link.text)
 
+# Challenge - 1 : Create a dictionary of upcoming events from python.org
+events_time = driver.find_elements_by_css_selector(".event-widget time")
+events_name = driver.find_elements_by_css_selector(".event-widget li a")
+events = {}
+for n in range(len(events_time)):
+    events[n] = {
+        "time": events_time[n].text,
+        "name": events_name[n].text
+    }
+print(events)
+
+
 driver.quit()
