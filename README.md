@@ -329,3 +329,10 @@
 - Description: This project helps you to track amazon prices and when it drops to a desired price then an email will be sent to your inbox notifying about the price drop :money_with_wings:
 - [Source-Code](https://github.com/MihirMore/100daysofcode-Python/tree/main/Day-47/Final_Project)
 - [Live-Version](https://replit.com/@MihirMore1/Amazon-Price-Tracker#main.py)
+
+### Day - 48
+
+- Project Name: **Cookie Clicker (Automated)**
+- Description: In this project I have automated the cookie clicker game using selenium and google webdriver. You can find the game [here](http://orteil.dashnet.org/experiments/cookie/). The algorithm can be tweaked further to get more cookies per second :cookie:
+- [Source-Code]()
+- [Live-Version](https://replit.com/@MihirMore1/Cookie-Clicker#main.py)
