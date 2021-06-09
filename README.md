@@ -334,5 +334,5 @@
 
 - Project Name: **Cookie Clicker (Automated)**
 - Description: In this project I have automated the cookie clicker game using selenium and google webdriver. You can find the game [here](http://orteil.dashnet.org/experiments/cookie/). The algorithm can be tweaked further to get more cookies per second :cookie:
-- [Source-Code]()
+- [Source-Code](https://github.com/MihirMore/100daysofcode-Python/tree/main/Day-48)
 - [Live-Version](https://replit.com/@MihirMore1/Cookie-Clicker#main.py)
