@@ -342,5 +342,5 @@
 
 - Project Name: **Automatic LinkedIn Job Application**
 - Description: This project uses selenium webdriver to interact with LinkedIn website on chrome. It then signs you in and navigates to job search page and applies to jobs for Python Developer(example) :computer:
-- [Source Code]()
+- [Source Code](https://github.com/MihirMore/100daysofcode-Python/tree/main/Day-49/Automated_Job_Application)
 - [Live Version](https://replit.com/@MihirMore1/Automated-Job-Application#main.py)
