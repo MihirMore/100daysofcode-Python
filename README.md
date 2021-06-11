@@ -337,8 +337,7 @@
 - [Source-Code](https://github.com/MihirMore/100daysofcode-Python/tree/main/Day-48)
 - [Live-Version](https://replit.com/@MihirMore1/Cookie-Clicker#main.py)
 
-
-### Day - 49 
+### Day - 49
 
 - Project Name: **Automatic LinkedIn Job Application**
 - Description: This project uses selenium webdriver to interact with LinkedIn website on chrome. It then signs you in and navigates to job search page and applies to jobs for Python Developer(example) :computer:
