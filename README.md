@@ -343,3 +343,11 @@
 - Description: This project uses selenium webdriver to interact with LinkedIn website on chrome. It then signs you in and navigates to job search page and applies to jobs for Python Developer(example) :computer:
 - [Source Code](https://github.com/MihirMore/100daysofcode-Python/tree/main/Day-49/Automated_Job_Application)
 - [Live Version](https://replit.com/@MihirMore1/Automated-Job-Application#main.py)
+
+
+### Day - 50
+
+- Project Name: **Automatic Tinder Swiping Bot**
+- Description: This project is an automated version where the code auto right swipes for your peofile. It requires your login for facebook. Use this bot to find your love :heart:
+- [Source-Code]()
+- [Live Version](https://replit.com/@MihirMore1/Tinder-Swiping#main.py)
