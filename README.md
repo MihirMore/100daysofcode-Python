@@ -344,7 +344,6 @@
 - [Source Code](https://github.com/MihirMore/100daysofcode-Python/tree/main/Day-49/Automated_Job_Application)
 - [Live Version](https://replit.com/@MihirMore1/Automated-Job-Application#main.py)
 
-
 ### Day - 50
 
 - Project Name: **Automatic Tinder Swiping Bot**
