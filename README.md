@@ -349,5 +349,5 @@
 
 - Project Name: **Automatic Tinder Swiping Bot**
 - Description: This project is an automated version where the code auto right swipes for your peofile. It requires your login for facebook. Use this bot to find your love :heart:
-- [Source-Code]()
+- [Source-Code](https://github.com/MihirMore/100daysofcode-Python/tree/main/Day-50/Auto_Tinder_Swiping)
 - [Live Version](https://replit.com/@MihirMore1/Tinder-Swiping#main.py)
