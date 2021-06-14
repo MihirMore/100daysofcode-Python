@@ -2,8 +2,8 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import time
 
-PROMISED_DOWN = 30
-PROMISED_UP = 20
+PROMISED_DOWN = 50
+PROMISED_UP = 50
 CHROME_DRIVER_PATH = "C:\Program Files\chromedriver_win32\chromedriver.exe"
 TWITTER_EMAIL = "afterhoursatm@gmail.com"
 TWITTER_PASSWORD = "@ft€₹h0ur$Tweet$"
@@ -40,12 +40,27 @@ class InternetSpeedTwitterBot:
                                                   "1]/label/div/div[2]/div/input")
         password = self.driver.find_element_by_xpath("/html/body/div/div/div/div[2]/main/div/div/div[2]/form/div/div["
                                                      "2]/label/div/div[2]/div/input")
-
+        time.sleep(1)
         email.send_keys(TWITTER_EMAIL)
+        time.sleep(1)
         password.send_keys(TWITTER_PASSWORD)
         login_button = self.driver.find_element_by_xpath("/html/body/div/div/div/div[2]/main/div/div/div["
                                                          "2]/form/div/div[3]/div")
+        time.sleep(1)
         login_button.send_keys(Keys.ENTER)
+
+        tweet_compose = self.driver.find_element_by_xpath("/html/body/div/div/div/div["
+                                                          "2]/main/div/div/div/div/div/div[2]/div/div[2]/div["
+                                                          "1]/div/div/div/div[2]/div["
+                                                          "1]/div/div/div/div/div/div/div/div/label/div["
+                                                          "1]/div/div/div/div/div[2]/div/div/div/div")
+        time.sleep(3)
+
+        tweet = f"Hey Internet Provider, why is my internet speed is {self.down} MBPS download / {self.up} MBPS " \
+                f"upload, when I pay for {PROMISED_DOWN} down and {PROMISED_UP} up?"
+        tweet_compose.send_keys(tweet)
+        time.sleep(2)
+        print("Done")
 
 
 bot = InternetSpeedTwitterBot(CHROME_DRIVER_PATH)
