@@ -49,18 +49,16 @@ class InternetSpeedTwitterBot:
         time.sleep(1)
         login_button.send_keys(Keys.ENTER)
 
-        tweet_compose = self.driver.find_element_by_xpath("/html/body/div/div/div/div["
+        tweet_compose = self.driver.find_element_by_xpath("//*[@id=\"react-root\"]/div/div/div["
                                                           "2]/main/div/div/div/div/div/div[2]/div/div[2]/div["
-                                                          "1]/div/div/div/div[2]/div["
-                                                          "1]/div/div/div/div/div/div/div/div/label/div["
-                                                          "1]/div/div/div/div/div[2]/div/div/div/div")
+                                                          "1]/div/div/div/div[2]/div[4]/div/div/div[2]/div[3]")
         time.sleep(3)
 
         tweet = f"Hey Internet Provider, why is my internet speed is {self.down} MBPS download / {self.up} MBPS " \
                 f"upload, when I pay for {PROMISED_DOWN} down and {PROMISED_UP} up?"
         tweet_compose.send_keys(tweet)
         time.sleep(2)
-        print("Done")
+
 
 
 bot = InternetSpeedTwitterBot(CHROME_DRIVER_PATH)
