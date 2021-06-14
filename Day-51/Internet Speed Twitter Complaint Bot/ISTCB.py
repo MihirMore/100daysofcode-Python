@@ -5,8 +5,8 @@ import time
 PROMISED_DOWN = 50
 PROMISED_UP = 50
 CHROME_DRIVER_PATH = "C:\Program Files\chromedriver_win32\chromedriver.exe"
-TWITTER_EMAIL = "afterhoursatm@gmail.com"
-TWITTER_PASSWORD = "@ft€₹h0ur$Tweet$"
+TWITTER_EMAIL = "YOUR_EMAIL"
+TWITTER_PASSWORD = "YOUR_PASSWORD"
 
 
 class InternetSpeedTwitterBot:
@@ -28,9 +28,11 @@ class InternetSpeedTwitterBot:
         down_speed = self.driver.find_element_by_xpath("/html/body/div[3]/div/div[3]/div/div/div/div[2]/div[3]/div["
                                                        "3]/div/div[3]/div/div/div[2]/div[1]/div[2]/div/div[2]/span")
         print(down_speed.text)
+        self.down = down_speed.text
         up_speed = self.driver.find_element_by_xpath("/html/body/div[3]/div/div[3]/div/div/div/div[2]/div[3]/div["
                                                      "3]/div/div[3]/div/div/div[2]/div[1]/div[3]/div/div[2]/span")
         print(up_speed.text)
+        self.up = up_speed.text
 
     def tweet_at_provider(self):
         self.driver.get("https://twitter.com/login")
@@ -49,7 +51,7 @@ class InternetSpeedTwitterBot:
         time.sleep(1)
         login_button.send_keys(Keys.ENTER)
 
-        time.sleep(20)
+        time.sleep(12)
         tweet_compose = self.driver.find_element_by_xpath("/html/body/div/div/div/div["
                                                           "2]/main/div/div/div/div/div/div[2]/div/div[2]/div["
                                                           "1]/div/div/div/div[2]/div["
@@ -62,8 +64,14 @@ class InternetSpeedTwitterBot:
         tweet_compose.click()
         tweet_compose.send_keys(tweet)
         time.sleep(2)
-
+        tweet_button = self.driver.find_element_by_xpath("/html/body/div/div/div/div[2]/main/div/div/div/div/div/div["
+                                                         "2]/div/div[2]/div[1]/div/div/div/div[2]/div[3]/div/div/div["
+                                                         "2]/div[3]")
+        tweet_button.click()
+        time.sleep(10)
+        self.driver.quit()
 
 bot = InternetSpeedTwitterBot(CHROME_DRIVER_PATH)
 bot.get_internet_speed()
-bot.tweet_at_provider()
+if float(bot.up) < PROMISED_UP or float(bot.down) < PROMISED_DOWN:
+    bot.tweet_at_provider()
