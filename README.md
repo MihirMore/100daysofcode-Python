@@ -350,3 +350,12 @@
 - Description: This project is an automated version where the code auto right swipes for your peofile. It requires your login for facebook. Use this bot to find your love :heart:
 - [Source-Code](https://github.com/MihirMore/100daysofcode-Python/tree/main/Day-50/Auto_Tinder_Swiping)
 - [Live Version](https://replit.com/@MihirMore1/Tinder-Swiping#main.py)
+
+
+### Day - 51
+
+- Project Name: **Internet Speed Twitter Complaint Bot**
+- Description: This bot is based on selenium webdriver where it scrapes for your Internet speed on [Ookla website](https://www.speedtest.net/)
+and fetches your download and upload speed. If your download or upload speed is less than your *promised* speed then it logs in to your twitter account and sends a notification to your Internet Provider 🤖
+- [Source Code]()
+- [Live Version](https://replit.com/@MihirMore1/Twitter-Complain-Bot#main.py)
