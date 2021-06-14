@@ -71,6 +71,7 @@ class InternetSpeedTwitterBot:
         time.sleep(10)
         self.driver.quit()
 
+
 bot = InternetSpeedTwitterBot(CHROME_DRIVER_PATH)
 bot.get_internet_speed()
 if float(bot.up) < PROMISED_UP or float(bot.down) < PROMISED_DOWN:
