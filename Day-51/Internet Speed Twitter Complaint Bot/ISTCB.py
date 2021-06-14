@@ -44,7 +44,7 @@ class InternetSpeedTwitterBot:
         email.send_keys(TWITTER_EMAIL)
         password.send_keys(TWITTER_PASSWORD)
         login_button = self.driver.find_element_by_xpath("/html/body/div/div/div/div[2]/main/div/div/div["
-                                                         "2]/form/div/div[3]/div/div/span/span")
+                                                         "2]/form/div/div[3]/div")
         login_button.send_keys(Keys.ENTER)
 
 
