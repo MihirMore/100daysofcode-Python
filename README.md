@@ -351,7 +351,6 @@
 - [Source-Code](https://github.com/MihirMore/100daysofcode-Python/tree/main/Day-50/Auto_Tinder_Swiping)
 - [Live Version](https://replit.com/@MihirMore1/Tinder-Swiping#main.py)
 
-
 ### Day - 51
 
 - Project Name: **Internet Speed Twitter Complaint Bot**
