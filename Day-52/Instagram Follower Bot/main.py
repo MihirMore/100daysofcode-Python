@@ -36,7 +36,7 @@ class InstaFollower:
 
         time.sleep(4)
         modal = self.driver.find_element_by_xpath('/html/body/div[5]/div/div/div[2]')
-        for i in range(1):
+        for i in range(10):
             self.driver.execute_script("arguments[0].scrollTop = arguments[0].scrollHeight", modal)
             time.sleep(2)
 
