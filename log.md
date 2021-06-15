@@ -184,3 +184,7 @@ which tested all the concepts covered till now and building blackjack project wa
 ### Day - 45
 
 **Thoughts** : Learnt about a new library of Python called BeautifulSoup which helps us to fetch data from websites which is also scraping. You can fetch data from website and use it for your application. Today, I developed a top 100 movies to watch web-scraper website and storing it in a text file so I can remove the movies when I watch it later.
+
+### Day - 46
+
+**Thoughts** : Today developed a project where we fetch top 100 billboard songs on a particular day say your birthday, After that I login to Spotify account and create a new spotify playlist with the songs from the billboard.
