@@ -188,3 +188,7 @@ which tested all the concepts covered till now and building blackjack project wa
 ### Day - 46
 
 **Thoughts** : Today developed a project where we fetch top 100 billboard songs on a particular day say your birthday, After that I login to Spotify account and create a new spotify playlist with the songs from the billboard.
+
+### Day - 47
+
+**Thoughts** : Amazon is great place to order multitude of things from home. Today developed a project where it fetches the price of a product and checks if it goes below a certain price and if it does then an email notification will be sent.
