@@ -364,5 +364,5 @@ and fetches your download and upload speed. If your download or upload speed is 
 
 - Project Name: **Instagram Follower Bot**
 - Description: This project is built to follow a number of people on Instagram. It uses selenium to automate the workflow of following people. Use this bot to gain more followers :muscle:
-- [Source Code]()
+- [Source Code](https://github.com/MihirMore/100daysofcode-Python/tree/main/Day-52/Instagram%20Follower%20Bot)
 - [Live Version](https://replit.com/@MihirMore1/Instagram-Follower-Bot#main.py)
