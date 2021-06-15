@@ -192,3 +192,7 @@ which tested all the concepts covered till now and building blackjack project wa
 ### Day - 47
 
 **Thoughts** : Amazon is great place to order multitude of things from home. Today developed a project where it fetches the price of a product and checks if it goes below a certain price and if it does then an email notification will be sent.
+
+### Day - 48
+
+**THoughts** : Today learnt about a more advanced scraper called selenium where you can fetch data and also type and click on websites. Developed a project where you can play cookie [clicker game](https://orteil.dashnet.org/experiments/cookie/) where it automatically clicks for you and buys items from the store. At the end, it shows the cookie per second.
