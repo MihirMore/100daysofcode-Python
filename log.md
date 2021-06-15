@@ -195,4 +195,7 @@ which tested all the concepts covered till now and building blackjack project wa
 
 ### Day - 48
 
-**THoughts** : Today learnt about a more advanced scraper called selenium where you can fetch data and also type and click on websites. Developed a project where you can play cookie [clicker game](https://orteil.dashnet.org/experiments/cookie/) where it automatically clicks for you and buys items from the store. At the end, it shows the cookie per second.
+**Thoughts** : Today learnt about a more advanced scraper called selenium where you can fetch data and also type and click on websites. Developed a project where you can play cookie [clicker game](https://orteil.dashnet.org/experiments/cookie/) where it automatically clicks for you and buys items from the store. At the end, it shows the cookie per second.
+
+### Day - 49
+
