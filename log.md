@@ -199,3 +199,4 @@ which tested all the concepts covered till now and building blackjack project wa
 
 ### Day - 49
 
+**Thoughts** : Developed an application where it helps you to apply jobs on linkedin. A very useful bot where you can apply for many jobs at a same time. Also learned how to find various html elements and fetch their data.
