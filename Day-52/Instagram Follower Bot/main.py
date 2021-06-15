@@ -2,10 +2,10 @@ import time
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
-USERNAME = "afterhours.ig"
-PASSWORD = "@ft€₹h0ur$97"
+USERNAME = "YOUR INSTA ID"
+PASSWORD = "YOUR PASSWORD"
 CHROME_DRIVER_PATH = "C:\Program Files\chromedriver_win32\chromedriver.exe"
-SIMILAR_ACCOUNT = "spotifypodcasts/"
+SIMILAR_ACCOUNT = "PEOPLE WHO YOU WANT TO FOLLOW"
 
 
 class InstaFollower:
