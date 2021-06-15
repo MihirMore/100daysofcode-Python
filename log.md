@@ -180,3 +180,7 @@ which tested all the concepts covered till now and building blackjack project wa
 ### Day - 44
 
 **Thoughts** : Completed the personal website with all the CSS and HTML code added. Added a lot of CSS code and learnt how to align html elements. Also learned how to use float and wrap text around an image. Also deployed personal website to github pages.
+
+### Day - 45
+
+**Thoughts** : Learnt about a new library of Python called BeautifulSoup which helps us to fetch data from websites which is also scraping. You can fetch data from website and use it for your application. Today, I developed a top 100 movies to watch web-scraper website and storing it in a text file so I can remove the movies when I watch it later.
