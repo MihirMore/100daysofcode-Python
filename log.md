@@ -200,3 +200,7 @@ which tested all the concepts covered till now and building blackjack project wa
 ### Day - 49
 
 **Thoughts** : Developed an application where it helps you to apply jobs on linkedin. A very useful bot where you can apply for many jobs at a same time. Also learned how to find various html elements and fetch their data.
+
+### Day - 50
+
+**Thoughts** : Tinder is a dating app where you could swipe on a profile to like to dismiss it. I developed a similar application using selenium where in it logs in to your account and right swipes all the profiles until there's a match for it. It's a very fun application.
