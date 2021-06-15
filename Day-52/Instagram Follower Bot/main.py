@@ -1,5 +1,6 @@
 import time
 from selenium import webdriver
+from selenium.common.exceptions import ElementClickInterceptedException
 from selenium.webdriver.common.keys import Keys
 
 USERNAME = "afterhours.ig"
@@ -22,17 +23,37 @@ class InstaFollower:
         password_field.send_keys(PASSWORD)
         time.sleep(2)
         password_field.send_keys(Keys.ENTER)
-        time.sleep(4)
+        time.sleep(5)
         close_popup = self.driver.find_element_by_css_selector('.mt3GC .HoLwm')
         close_popup.click()
 
     def find_followers(self):
-        time.sleep(5)
+        time.sleep(3)
         self.driver.get(f"https://www.instagram.com/{SIMILAR_ACCOUNT}")
 
+        time.sleep(2)
+        followers = self.driver.find_element_by_xpath("/html/body/div[1]/section/main/div/header/section/ul/li[2]/a")
+        followers.click()
+
+        time.sleep(4)
+        modal = self.driver.find_element_by_xpath('/html/body/div[5]/div/div/div[2]')
+        for i in range(1):
+            self.driver.execute_script("arguments[0].scrollTop = arguments[0].scrollHeight", modal)
+            time.sleep(2)
+
     def follow(self):
-        pass
+        all_buttons = self.driver.find_element_by_xpath("/html/body/div[5]/div/div/div[2]/ul/div/li[1]/div/div["
+                                                        "2]/button")
+        for button in all_buttons:
+            try:
+                button.click()
+                time.sleep(1)
+            except ElementClickInterceptedException:
+                cancel_button = self.driver.find_element_by_xpath('/html/body/div[5]/div/div/div/div[3]/button[2]')
+                cancel_button.click()
 
 
 bot = InstaFollower(CHROME_DRIVER_PATH)
 bot.login()
+bot.find_followers()
+bot.follow()
