@@ -358,3 +358,11 @@
 and fetches your download and upload speed. If your download or upload speed is less than your *promised* speed then it logs in to your twitter account and sends a notification to your Internet Provider 🤖
 - [Source Code](https://github.com/MihirMore/100daysofcode-Python/tree/main/Day-51/Internet%20Speed%20Twitter%20Complaint%20Bot)
 - [Live Version](https://replit.com/@MihirMore1/Twitter-Complaint-Bot#main.py)
+
+
+### Day - 52 
+
+- Project Name: **Instagram Follower Bot**
+- Description: This project is built to follow a number of people on Instagram. It uses selenium to automate the workflow of following people. Use this bot to gain more followers :muscle:
+- [Source Code]()
+- [Live Version](https://replit.com/@MihirMore1/Instagram-Follower-Bot#main.py)
