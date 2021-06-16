@@ -5,8 +5,8 @@ import time
 
 header = {
     "Accept-Language": "en-US,en-GB;q=0.9,en;q=0.8",
-    "User-Agent" : "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) "
-                   "Chrome/91.0.4472.77 Safari/537.36 "
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)"
+                  "Chrome/91.0.4472.77 Safari/537.36 "
 }
 
 response = requests.get("https://www.zillow.com/san-francisco-ca/rentals/1-_beds/?searchQueryState=%7B%22pagination"
