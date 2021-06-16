@@ -1,5 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
+from selenium import webdriver
+import time
 
 header = {
     "Accept-Language": "en-US,en-GB;q=0.9,en;q=0.8",
@@ -39,5 +41,28 @@ all_addresses = [address.get_text() for address in all_address_elements]
 print(all_addresses)
 
 all_price_elements = soup.select(".list-card-price")
-all_prices = [price.get_text().split(" ")[0] for price in all_price_elements]
+all_prices = [price.get_text().split(" ")[0].split("+")[0] for price in all_price_elements]
 print(all_prices)
+
+chrome_driver_path = "C:\Program Files\chromedriver_win32\chromedriver.exe"
+driver = webdriver.Chrome(executable_path=chrome_driver_path)
+
+for n in range(len(all_links)):
+    driver.get("https://docs.google.com/forms/d/1PhXoWKz1tIhqjycYkM5BA0ZMIH0awNrH3TRtnVHSCr4")
+
+    time.sleep(2)
+    address_field = driver.find_element_by_xpath("//*[@id=\"SchemaEditor\"]/div/div[2]/div/div[2]/div[3]/div["
+                                                 "1]/div/div/div[1]/div[2]/div[3]/div[1]/div[2]/div/div[2]/div/div["
+                                                 "2]/input")
+    price_field = driver.find_element_by_xpath("//*[@id=\"SchemaEditor\"]/div/div[2]/div/div[2]/div[3]/div["
+                                               "2]/div/div/div[1]/div[2]/div[3]/div[1]/div[2]/div/div[2]/div/div["
+                                               "2]/input")
+    link_field = driver.find_element_by_xpath("//*[@id=\"SchemaEditor\"]/div/div[2]/div/div[2]/div[3]/div["
+                                              "3]/div/div/div[1]/div[2]/div[3]/div[1]/div[2]/div/div[2]/div/div["
+                                              "2]/input")
+    submit_button = driver.find_element_by_xpath("//*[@id=\"mG61Hd\"]/div[2]/div/div[3]/div[1]/div/div/span")
+
+    address_field.send_keys(all_addresses[n])
+    price_field.send_keys(all_prices[n])
+    link_field.send_keys(link_field[n])
+    submit_button.click()
