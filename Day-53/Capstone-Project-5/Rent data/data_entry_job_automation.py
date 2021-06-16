@@ -34,15 +34,12 @@ for link in all_link_elements:
         all_links.append(f"https://www.zillow.com/{href}")
     else:
         all_links.append(href)
-print(all_links)
 
 all_address_elements = soup.select(".list-card-addr")
 all_addresses = [address.get_text() for address in all_address_elements]
-print(all_addresses)
 
 all_price_elements = soup.select(".list-card-price")
 all_prices = [price.get_text().split(" ")[0].split("+")[0] for price in all_price_elements]
-print(all_prices)
 
 chrome_driver_path = "C:\Program Files\chromedriver_win32\chromedriver.exe"
 driver = webdriver.Chrome(executable_path=chrome_driver_path)
