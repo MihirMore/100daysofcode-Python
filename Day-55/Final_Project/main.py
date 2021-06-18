@@ -15,7 +15,8 @@ def say_bye():
 
 @app.route('/username/<name>')
 def greet(name):
-    return f"Hello {name}"
+    user_name = name.title()
+    return f"Hello {user_name}"
 
 
 if __name__ == "__main__":
