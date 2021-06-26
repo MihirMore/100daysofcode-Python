@@ -31,7 +31,8 @@ def outer_function():
     def nested_function():
         print("I'm inner function")
 
-    nested_function()
+    return nested_function()
 
 
-outer_function()
+inner_function = outer_function
+inner_function()
