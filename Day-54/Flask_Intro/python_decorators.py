@@ -25,3 +25,13 @@ print(calculate(add, 3, 8))
 
 # Nested functions
 
+def outer_function():
+    print("I'm outer function.")
+
+    def nested_function():
+        print("I'm inner function")
+
+    nested_function()
+
+
+outer_function()
