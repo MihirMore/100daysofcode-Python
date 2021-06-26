@@ -20,5 +20,8 @@ def calculate(calc_function, n1, n2):
     return calc_function(n1, n2)
 
 
-print(calculate(multiply, 3, 8))
+print(calculate(add, 3, 8))
+
+
+# Nested functions
 
