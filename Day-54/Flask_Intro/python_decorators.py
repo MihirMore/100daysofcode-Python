@@ -17,4 +17,8 @@ def divide(n1, n2):
 # First-class objects, can be passed around as arguments e.g. int/string/float
 
 def calculate(calc_function, n1, n2):
-    calc_function(n1, n2)
+    return calc_function(n1, n2)
+
+
+print(calculate(multiply, 3, 8))
+
