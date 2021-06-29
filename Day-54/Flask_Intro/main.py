@@ -1,8 +1,17 @@
 # Python Decorator Function
+import time
 
 
-def decorator_function(function):
+def delay_decorator(function):
     def wrapper_function():
+        time.sleep(2)
         function()
-
+        function()
     return wrapper_function()
+
+
+@delay_decorator
+def say_hello():
+    print("Hello")
+
+
