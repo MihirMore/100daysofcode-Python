@@ -8,7 +8,7 @@ Try running the starting code to see the current time printed.
 
 If you run the code after a while, you'll see a new time printed.
 
-e.g. first run:
+e.g., first run:
 
 1598524371.736911
 
