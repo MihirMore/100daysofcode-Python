@@ -14,11 +14,13 @@ def speed_calc_decorator(function):
     return wrapper_function()
 
 
+@speed_calc_decorator
 def fast_function():
     for i in range(10000000):
         time_i = i * i
 
 
+@speed_calc_decorator
 def slow_function():
     for i in range(100000000):
         time_i = i * i
