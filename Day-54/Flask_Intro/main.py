@@ -24,3 +24,6 @@ def say_bye():
 @delay_decorator
 def say_greeting():
     print("How are you?")
+
+
+say_hello()
