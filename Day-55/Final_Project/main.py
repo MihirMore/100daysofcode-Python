@@ -13,11 +13,11 @@ def say_bye():
     return "Bye"
 
 
-@app.route('/username/<name>')
+@app.route('/<name>')
 def greet(name):
     user_name = name.title()
     return f"Hello {user_name}!"
 
 
 if __name__ == "__main__":
-    app.run()
+    app.run(debug=True)
