@@ -13,9 +13,9 @@ def say_bye():
     return "Bye"
 
 
-@app.route('/<name>')
-def greet(name):
-    user_name = name.title()
+@app.route('/<username>')
+def greet(username):
+    user_name = username.title()
     return f"Hello {user_name}!"
 
 
