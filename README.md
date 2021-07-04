@@ -79,7 +79,7 @@
 - Project Name: **Black-Jack**
 - Description: It's a card game in which the player plays against a dealer(computer in our case) and tries to draw cards whose sum is no more than 21 or user loses.
 - [Source-Code](https://github.com/MihirMore/100daysofcode-Python/tree/main/Day-11/BlackJack)
-- [Try-it-out](https://replit.com/@MihirMore1/blackjack-start?embed=1&output=1#main.py)
+- [Try-it-out](https://replit.com/@MihirMore1/blackjack-game)
 
 ### Day - 12
 
