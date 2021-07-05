@@ -7,7 +7,7 @@ app = Flask(__name__)
 def hello_world():
     return '<h1 style="text-align: center">Hello World!</h1>' \
            '<p>This is a paragraph</p>' \
-           '<img src="https://cdn.hswstatic.com/gif/persian-cat-1.jpg" width= 600px>'
+           '<img src="https://media.giphy.com/media/hvS1eKlR75hMr0l7VJ/giphy.gif">'
 
 
 @app.route('/bye')
