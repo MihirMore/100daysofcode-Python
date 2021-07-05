@@ -13,7 +13,7 @@ def say_bye():
     return "Bye"
 
 
-@app.route('/<username>/<path:number>')
+@app.route('/<username>/<int:number>')
 def greet(username, number):
     user_name = username.title()
     return f"Hello {user_name}!, you're {number} years old."
