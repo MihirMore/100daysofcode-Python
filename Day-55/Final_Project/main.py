@@ -20,4 +20,5 @@ def greet(username, number):
 
 
 if __name__ == "__main__":
+    # Run the app in debug mode to auto-reload
     app.run(debug=True)
