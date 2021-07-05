@@ -19,10 +19,5 @@ def greet(username, number):
     return f"Hello {user_name}!, you're {number} years old."
 
 
-@app.route('/bye')
-def bye():
-    print("Bye!")
-
-
 if __name__ == "__main__":
     app.run(debug=True)
