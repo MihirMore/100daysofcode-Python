@@ -208,3 +208,7 @@ which tested all the concepts covered till now and building blackjack project wa
 ### Day - 51
 
 **Thoughts** : Today's project is quite useful for automating certain things like complaining about internet speed to your ISP. I've accomplished the same by using web scraping with Selenium to login into my twitter account and sending a complain tweet to my ISP. However, Firstly I monitor my upseed and downspeed and if it's less than a preset amount I send out a tweet. It can be frustating to you ISP that your tweeting constantly but yeah f*ck it :sunglasses:
+
+### Day - 52
+
+**Thoughts** : This project is based on the assumption that if you want to increase your instagram followers then follow the people/groups wherein people can follow you back. This is similar to the previous project where it searches for particular channel and goes on to follow people who are following the channel
