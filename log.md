@@ -204,3 +204,7 @@ which tested all the concepts covered till now and building blackjack project wa
 ### Day - 50
 
 **Thoughts** : Tinder is a dating app where you could swipe on a profile to like to dismiss it. I developed a similar application using selenium where in it logs in to your account and right swipes all the profiles until there's a match for it. It's a very fun application.
+
+### Day - 51
+
+**Thoughts** : Today's project is quite useful for automating certain things like complaining about internet speed to your ISP. I've accomplished the same by using web scraping with Selenium to login into my twitter account and sending a complain tweet to my ISP. However, Firstly I monitor my upseed and downspeed and if it's less than a preset amount I send out a tweet. It can be frustating to you ISP that your tweeting constantly but yeah f*ck it :sunglasses:
