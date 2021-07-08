@@ -378,3 +378,7 @@ and fetches your download and upload speed. If your download or upload speed is 
 - Project Name: **Flask Intro Project**
 - Description: Created a sample flask project using basic and advanced decorators :simple_smile:
 - [Source Code](https://github.com/MihirMore/100daysofcode-Python/tree/main/Day-54/Flask_Intro)
+
+### Day - 55
+
+- Project Name: **Higher Lower Game (Using Flask)**
