@@ -372,3 +372,9 @@ and fetches your download and upload speed. If your download or upload speed is 
 - Description: This project is developed to showcase how we can use web scraping to automate certain repititive tasks. This project scrapes data from [zillow](https://www.zillow.com/)- a online real estate marketplace where you can buy,sell or rent properties. In this use case we have scraped data for San Franciso, Bay Area properties for rent with certain filters. This data is fed into a google form [here](https://github.com/MihirMore/100daysofcode-Python/blob/main/Day-53/Web_Scraping_Capstone_Project/Rent%20data/Google%20Forms.png) and then can be converted to an excel sheet [here](https://github.com/MihirMore/100daysofcode-Python/blob/main/Day-53/Web_Scraping_Capstone_Project/Rent%20data/Excel_Sheet.png) with the use of google forms :computer:
 - [Source Code](https://github.com/MihirMore/100daysofcode-Python/tree/main/Day-53/Capstone-Project-5/Rent%20data)
 - [Live Version](https://replit.com/@MihirMore1/Data-Entry-Job-Automation#main.py)
+
+### Day - 54
+
+- Project Name: **Flask Intro Project**
+- Description: Created a sample flask project using basic and advanced decorators :simple_smile:
+- [Source Code]()
