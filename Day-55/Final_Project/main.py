@@ -12,7 +12,7 @@ def hello_world():
 
 @app.route('/bye')
 def say_bye():
-    return "<b>Bye</b>"
+    return "<em><b>Bye</b></em>"
 
 
 @app.route('/<username>/<int:number>')
