@@ -3,4 +3,9 @@ def logging_decorator(fn):
         print(f"You called {fn.__name__}{args}")
         result = fn(args[0], args[1], args[2])
         print(f"It returned {result}")
+
     return wrapper
+
+
+def multiply_function(a, b, c):
+    return a * b * c
