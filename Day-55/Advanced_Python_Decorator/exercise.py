@@ -7,5 +7,9 @@ def logging_decorator(fn):
     return wrapper
 
 
+@logging_decorator
 def multiply_function(a, b, c):
     return a * b * c
+
+
+multiply_function(2, 3, 4)
