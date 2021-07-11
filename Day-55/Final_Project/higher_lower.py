@@ -13,5 +13,12 @@ def home():
            "<img src = 'https://media.giphy.com/media/3o7aCSPqXE5C6T8tBC/giphy.gif'/>"
 
 
+@app.route("/<int:guess>")
+def guess_number(guess):
+    if guess > random_number:
+        return "<h1 style='color: purple'>Too high, try again!</h1>" \
+               "<img src='https://media.giphy.com/media/3o6ZtaO9BZHcOjmErm/giphy.gif'/>"
+
+
 if __name__ == "__main__":
     app.run(debug=True)
